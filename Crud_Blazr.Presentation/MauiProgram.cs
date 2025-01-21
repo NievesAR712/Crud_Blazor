@@ -1,4 +1,9 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using Crud_Blazr.Application.Services;
+using Crud_Blazr.Core.Interface;
+using Crud_Blazr.Infrastructure.DataAccess;
+using Crud_Blazr.Infrastructure.Repositories;
+using Microsoft.Extensions.Logging;
+
 
 namespace Crud_Blazr.Presentation
 {
@@ -15,9 +20,12 @@ namespace Crud_Blazr.Presentation
                 });
 
             builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddDbContext<AppDbContext>();  // Registra el contexto de datos
+            builder.Services.AddScoped<IUserRepository, UsuarioRepository>();  // Registra el repositorio
+            builder.Services.AddScoped<UserService>();
 
 #if DEBUG
-    		builder.Services.AddBlazorWebViewDeveloperTools();
+            builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
 
