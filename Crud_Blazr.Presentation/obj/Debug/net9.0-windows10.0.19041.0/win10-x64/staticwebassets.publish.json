@@ -1,0 +1,3484 @@
+{
+  "Version": 1,
+  "Hash": "wC8tVPmaZW5Er6JhVXrgkqzzME7+JnAWLkEkT70hlzY=",
+  "Source": "Crud_Blazr.Presentation",
+  "BasePath": "/",
+  "Mode": "Root",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Crud_Blazr.Presentation\\wwwroot",
+      "Source": "Crud_Blazr.Presentation",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\",
+      "BasePath": "/",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\6b3dax2paz-6h7q8o06po.gz",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "Crud_Blazr.Presentation#[.{fingerprint=6h7q8o06po}]!.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Crud_Blazr.Presentation.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "naveb46fm4",
+      "Integrity": "Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Crud_Blazr.Presentation.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\cyz0v3z8ul-6gzpyzhau4.gz",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint=6gzpyzhau4}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "joqzyw7ssu",
+      "Integrity": "LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\d8sbmw5lkg-8inm30yfxf.gz",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "fbl5ivwo6k",
+      "Integrity": "Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\mwpvqeeert-e5tk7yf482.gz",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "css/app#[.{fingerprint=e5tk7yf482}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "9sb0w9jnhl",
+      "Integrity": "qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\6b3dax2paz-6h7q8o06po.br",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "Crud_Blazr.Presentation#[.{fingerprint=6h7q8o06po}]!.bundle.scp.css.br",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Crud_Blazr.Presentation.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "77dejqpc5x",
+      "Integrity": "rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Crud_Blazr.Presentation.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\cyz0v3z8ul-6gzpyzhau4.br",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint=6gzpyzhau4}]?.css.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "2o883p7o84",
+      "Integrity": "4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\d8sbmw5lkg-8inm30yfxf.br",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint=8inm30yfxf}]?.map.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "b4a1wrn6r6",
+      "Integrity": "e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\mwpvqeeert-e5tk7yf482.br",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "css/app#[.{fingerprint=e5tk7yf482}]?.css.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\app.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "ix9166x7gh",
+      "Integrity": "eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\tuv6l5c82h-wkhd9b2as5.br",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint=wkhd9b2as5}]?.html.br",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "ydm3q2m822",
+      "Integrity": "FpaZVGmv7fx0LcNCOaPMUdK7qFCnGaeFKcFWeZZ+mn0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\v6vbr7v6n8-6h7q8o06po.br",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\",
+      "BasePath": "/",
+      "RelativePath": "Crud_Blazr.Presentation#[.{fingerprint=6h7q8o06po}]?.styles.css.br",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Crud_Blazr.Presentation.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "br",
+      "Fingerprint": "77dejqpc5x",
+      "Integrity": "rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Crud_Blazr.Presentation.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-wkhd9b2as5.gz",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint=wkhd9b2as5}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "09xpro80wc",
+      "Integrity": "lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-6h7q8o06po.gz",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "Crud_Blazr.Presentation#[.{fingerprint=6h7q8o06po}]?.styles.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Crud_Blazr.Presentation.styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "naveb46fm4",
+      "Integrity": "Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Crud_Blazr.Presentation.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Crud_Blazr.Presentation.styles.css",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\",
+      "BasePath": "/",
+      "RelativePath": "Crud_Blazr.Presentation#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "6h7q8o06po",
+      "Integrity": "WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Crud_Blazr.Presentation.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Crud_Blazr.Presentation.bundle.scp.css",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\",
+      "BasePath": "/",
+      "RelativePath": "Crud_Blazr.Presentation#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "6h7q8o06po",
+      "Integrity": "WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Crud_Blazr.Presentation.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\app.css",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/app#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e5tk7yf482",
+      "Integrity": "bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\app.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6gzpyzhau4",
+      "Integrity": "SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/bootstrap/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8inm30yfxf",
+      "Integrity": "gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "wkhd9b2as5",
+      "Integrity": "QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Crud_Blazr.Presentation.6h7q8o06po.bundle.scp.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\6b3dax2paz-6h7q8o06po.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000614628150"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1626"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6h7q8o06po"
+        },
+        {
+          "Name": "label",
+          "Value": "Crud_Blazr.Presentation.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.6h7q8o06po.bundle.scp.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\6b3dax2paz-6h7q8o06po.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000741839763"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1347"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6h7q8o06po"
+        },
+        {
+          "Name": "label",
+          "Value": "Crud_Blazr.Presentation.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.6h7q8o06po.bundle.scp.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Crud_Blazr.Presentation.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6h7q8o06po"
+        },
+        {
+          "Name": "label",
+          "Value": "Crud_Blazr.Presentation.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.6h7q8o06po.bundle.scp.css.br",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\6b3dax2paz-6h7q8o06po.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6h7q8o06po"
+        },
+        {
+          "Name": "label",
+          "Value": "Crud_Blazr.Presentation.bundle.scp.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.6h7q8o06po.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\6b3dax2paz-6h7q8o06po.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6h7q8o06po"
+        },
+        {
+          "Name": "label",
+          "Value": "Crud_Blazr.Presentation.bundle.scp.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.6h7q8o06po.styles.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\v6vbr7v6n8-6h7q8o06po.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000741839763"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1347"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6h7q8o06po"
+        },
+        {
+          "Name": "label",
+          "Value": "Crud_Blazr.Presentation.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.6h7q8o06po.styles.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-6h7q8o06po.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000614628150"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1626"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6h7q8o06po"
+        },
+        {
+          "Name": "label",
+          "Value": "Crud_Blazr.Presentation.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.6h7q8o06po.styles.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Crud_Blazr.Presentation.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6h7q8o06po"
+        },
+        {
+          "Name": "label",
+          "Value": "Crud_Blazr.Presentation.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.6h7q8o06po.styles.css.br",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\v6vbr7v6n8-6h7q8o06po.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6h7q8o06po"
+        },
+        {
+          "Name": "label",
+          "Value": "Crud_Blazr.Presentation.styles.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.6h7q8o06po.styles.css.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-6h7q8o06po.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6h7q8o06po"
+        },
+        {
+          "Name": "label",
+          "Value": "Crud_Blazr.Presentation.styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.bundle.scp.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\6b3dax2paz-6h7q8o06po.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000614628150"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1626"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.bundle.scp.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\6b3dax2paz-6h7q8o06po.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000741839763"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1347"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.bundle.scp.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\Crud_Blazr.Presentation.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.bundle.scp.css.br",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\6b3dax2paz-6h7q8o06po.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\6b3dax2paz-6h7q8o06po.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.styles.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\v6vbr7v6n8-6h7q8o06po.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000741839763"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1347"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.styles.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-6h7q8o06po.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000614628150"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1626"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.styles.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Crud_Blazr.Presentation.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5481"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.styles.css.br",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\v6vbr7v6n8-6h7q8o06po.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1347"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rZoNo6oxELiGBo5BDdse1Fl6z7A46S6UVjRuHiwgs5g="
+        }
+      ]
+    },
+    {
+      "Route": "Crud_Blazr.Presentation.styles.css.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-6h7q8o06po.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1626"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\mwpvqeeert-e5tk7yf482.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000571102227"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1750"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\mwpvqeeert-e5tk7yf482.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000648508431"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1541"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css.br",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\mwpvqeeert-e5tk7yf482.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.css.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\mwpvqeeert-e5tk7yf482.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.e5tk7yf482.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\mwpvqeeert-e5tk7yf482.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000571102227"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1750"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5tk7yf482"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.e5tk7yf482.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\mwpvqeeert-e5tk7yf482.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000648508431"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1541"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5tk7yf482"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.e5tk7yf482.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3376"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5tk7yf482"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bhCZyC/yM2+DaFXr8z25+5MeWfXWqMJNNA4ZLAXbjjU="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.e5tk7yf482.css.br",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\mwpvqeeert-e5tk7yf482.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1541"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5tk7yf482"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eqlsvw/N8zKnAKc05YDjHT7YIDSUfr5wmQ20CD/lmXo="
+        }
+      ]
+    },
+    {
+      "Route": "css/app.e5tk7yf482.css.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\mwpvqeeert-e5tk7yf482.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1750"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e5tk7yf482"
+        },
+        {
+          "Name": "label",
+          "Value": "css/app.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qQ+vo7zHfjEIsR7Ks2Vsx0CJAT5ngXzV3IUcVLWwEfw="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\cyz0v3z8ul-6gzpyzhau4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041844506"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23897"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\cyz0v3z8ul-6gzpyzhau4.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000057250816"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17466"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css.br",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\cyz0v3z8ul-6gzpyzhau4.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17466"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.6gzpyzhau4.css.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\cyz0v3z8ul-6gzpyzhau4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6gzpyzhau4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\cyz0v3z8ul-6gzpyzhau4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000041844506"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23897"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\cyz0v3z8ul-6gzpyzhau4.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000057250816"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17466"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "162726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-SiIVMGgRhdXjKSTIddX7mh9IbOXVcwQWc7/p4nS6D/0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\d8sbmw5lkg-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013350065"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\d8sbmw5lkg-8inm30yfxf.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000017661604"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56619"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map.br",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\d8sbmw5lkg-8inm30yfxf.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.8inm30yfxf.map.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\d8sbmw5lkg-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8inm30yfxf"
+        },
+        {
+          "Name": "label",
+          "Value": "css/bootstrap/bootstrap.min.css.map.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.br",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\cyz0v3z8ul-6gzpyzhau4.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17466"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-4jR0OWxmfzUr920AK8Yzn3GjSgWqtt7AtQDXrJ9OWmA="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\cyz0v3z8ul-6gzpyzhau4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "23897"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LTxu1aeZz5yJTTAB+DiLnn5XOMdK1oiypNP/4JaeK9c="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\d8sbmw5lkg-8inm30yfxf.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000013350065"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\d8sbmw5lkg-8inm30yfxf.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.000017661604"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56619"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "449111"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gBwg2tmA0Ci2u54gMF1jNCVku6vznarkLS6D76htNNQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map.br",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\d8sbmw5lkg-8inm30yfxf.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "56619"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e0W3cltN7F1+gW+ilWd1J4N1PyvYvfyn8Js6/fJEqb0="
+        }
+      ]
+    },
+    {
+      "Route": "css/bootstrap/bootstrap.min.css.map.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\d8sbmw5lkg-8inm30yfxf.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "74905"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Kym5HpgDYV8Caci50HDUPG6WCQ6nTP+8hy429w+zHVU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\tuv6l5c82h-wkhd9b2as5.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.003030303030"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "329"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FpaZVGmv7fx0LcNCOaPMUdK7qFCnGaeFKcFWeZZ+mn0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-wkhd9b2as5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002237136465"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "446"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.br",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\tuv6l5c82h-wkhd9b2as5.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FpaZVGmv7fx0LcNCOaPMUdK7qFCnGaeFKcFWeZZ+mn0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FpaZVGmv7fx0LcNCOaPMUdK7qFCnGaeFKcFWeZZ+mn0="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-wkhd9b2as5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90="
+        }
+      ]
+    },
+    {
+      "Route": "index.wkhd9b2as5.html",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\tuv6l5c82h-wkhd9b2as5.br",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "br",
+          "Quality": "0.003030303030"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "329"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FpaZVGmv7fx0LcNCOaPMUdK7qFCnGaeFKcFWeZZ+mn0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wkhd9b2as5"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4="
+        }
+      ]
+    },
+    {
+      "Route": "index.wkhd9b2as5.html",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-wkhd9b2as5.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002237136465"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "446"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wkhd9b2as5"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4="
+        }
+      ]
+    },
+    {
+      "Route": "index.wkhd9b2as5.html",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "879"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wkhd9b2as5"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4="
+        }
+      ]
+    },
+    {
+      "Route": "index.wkhd9b2as5.html.br",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\publish\\tuv6l5c82h-wkhd9b2as5.br",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "329"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FpaZVGmv7fx0LcNCOaPMUdK7qFCnGaeFKcFWeZZ+mn0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "br"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wkhd9b2as5"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.br"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FpaZVGmv7fx0LcNCOaPMUdK7qFCnGaeFKcFWeZZ+mn0="
+        }
+      ]
+    },
+    {
+      "Route": "index.wkhd9b2as5.html.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-wkhd9b2as5.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "446"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wkhd9b2as5"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90="
+        }
+      ]
+    }
+  ]
+}
