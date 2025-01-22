@@ -1,0 +1,16 @@
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\bin\Release\net9.0\Crud_Blazr.Infrastructure.deps.json
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\bin\Release\net9.0\Crud_Blazr.Infrastructure.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\bin\Release\net9.0\Crud_Blazr.Infrastructure.pdb
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\bin\Release\net9.0\Crud_Blazr.Core.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\bin\Release\net9.0\Crud_Blazr.Core.pdb
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\obj\Release\net9.0\Crud_Blazr.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\obj\Release\net9.0\Crud_Blazr.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\obj\Release\net9.0\Crud_Blazr.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\obj\Release\net9.0\Crud_Blazr.Infrastructure.AssemblyInfo.cs
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\obj\Release\net9.0\Crud_Blazr.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\obj\Release\net9.0\Crud_Blazr.Infrastructure.sourcelink.json
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\obj\Release\net9.0\Crud_Bla.2AB43690.Up2Date
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\obj\Release\net9.0\Crud_Blazr.Infrastructure.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\obj\Release\net9.0\refint\Crud_Blazr.Infrastructure.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\obj\Release\net9.0\Crud_Blazr.Infrastructure.pdb
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Infrastructure\obj\Release\net9.0\ref\Crud_Blazr.Infrastructure.dll

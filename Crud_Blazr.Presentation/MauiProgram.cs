@@ -1,8 +1,10 @@
-﻿using Crud_Blazr.Application.Services;
+﻿using System.Diagnostics;
+using Crud_Blazr.Application.Services;
 using Crud_Blazr.Core.Interface;
 using Crud_Blazr.Infrastructure.DataAccess;
 using Crud_Blazr.Infrastructure.Repositories;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Http;
 
 
 namespace Crud_Blazr.Presentation
@@ -17,9 +19,16 @@ namespace Crud_Blazr.Presentation
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
+                    AppDomain.CurrentDomain.UnhandledException += (sender, args) =>
+                    {
+                        var exception = args.ExceptionObject as Exception;
+                        Debug.WriteLine($"Unhandled exception: {exception?.Message}");
+                    };
                 });
-
+            
+           
             builder.Services.AddMauiBlazorWebView();
+            builder.Services.AddHttpClient<PokeApiService>();
             builder.Services.AddDbContext<AppDbContext>();  // Registra el contexto de datos
             builder.Services.AddScoped<IUserRepository, UsuarioRepository>();  // Registra el repositorio
             builder.Services.AddScoped<UserService>();
@@ -28,7 +37,7 @@ namespace Crud_Blazr.Presentation
             builder.Services.AddBlazorWebViewDeveloperTools();
     		builder.Logging.AddDebug();
 #endif
-
+         
             return builder.Build();
         }
     }

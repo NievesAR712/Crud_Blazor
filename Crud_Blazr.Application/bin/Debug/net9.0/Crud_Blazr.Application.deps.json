@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Crud_Blazr.Application/1.0.0": {
+        "dependencies": {
+          "Crud_Blazr.Core": "1.0.0"
+        },
+        "runtime": {
+          "Crud_Blazr.Application.dll": {}
+        }
+      },
+      "Crud_Blazr.Core/1.0.0": {
+        "runtime": {
+          "Crud_Blazr.Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Crud_Blazr.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Crud_Blazr.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

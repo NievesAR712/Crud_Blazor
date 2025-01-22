@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Crud_Blazr.Presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+ff4b0d6e0c37218cd2257997344d0eb2a27f6f9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Crud_Blazr.Presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Crud_Blazr.Presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

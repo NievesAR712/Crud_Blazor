@@ -1,0 +1,16 @@
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\bin\Debug\net9.0\Crud_Blazr.Application.deps.json
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\bin\Debug\net9.0\Crud_Blazr.Application.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\bin\Debug\net9.0\Crud_Blazr.Application.pdb
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\bin\Debug\net9.0\Crud_Blazr.Core.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\bin\Debug\net9.0\Crud_Blazr.Core.pdb
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\obj\Debug\net9.0\Crud_Blazr.Application.csproj.AssemblyReference.cache
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\obj\Debug\net9.0\Crud_Blazr.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\obj\Debug\net9.0\Crud_Blazr.Application.AssemblyInfoInputs.cache
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\obj\Debug\net9.0\Crud_Blazr.Application.AssemblyInfo.cs
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\obj\Debug\net9.0\Crud_Blazr.Application.csproj.CoreCompileInputs.cache
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\obj\Debug\net9.0\Crud_Blazr.Application.sourcelink.json
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\obj\Debug\net9.0\Crud_Bla.C5BB9909.Up2Date
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\obj\Debug\net9.0\Crud_Blazr.Application.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\obj\Debug\net9.0\refint\Crud_Blazr.Application.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\obj\Debug\net9.0\Crud_Blazr.Application.pdb
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Application\obj\Debug\net9.0\ref\Crud_Blazr.Application.dll

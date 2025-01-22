@@ -1,42 +1,49 @@
 ﻿using Crud_Blazr.Core.Interface;
 using Crud_Blazr.Core.Models;
+using Crud_Blazr.Infrastructure.DataAccess;
+using Microsoft.EntityFrameworkCore;
 
 namespace Crud_Blazr.Infrastructure.Repositories
 {
     public class UsuarioRepository : IUserRepository
     {
-        private readonly List<Usuario> _users = new();
+        private readonly AppDbContext _dbContext;
 
-        public Task<IEnumerable<Usuario>> GetAllAsync() => Task.FromResult((IEnumerable<Usuario>)_users);
-
-        public Task<Usuario> GetByIdAsync(int id) => Task.FromResult(_users.FirstOrDefault(u => u.Id == id));
-
-        public Task AddAsync(Usuario user)
+        public UsuarioRepository(AppDbContext dbContext)
         {
-            _users.Add(user);
-            return Task.CompletedTask;
+            _dbContext = dbContext;
         }
 
-        public Task UpdateAsync(Usuario user)
+        public async Task<IEnumerable<Usuario>> GetAllAsync() => await _dbContext.Usuarios.ToListAsync();
+
+        public async Task<Usuario> GetByIdAsync(int id) => await _dbContext.Usuarios.FindAsync(id);
+
+        public async Task AddAsync(Usuario user)
         {
-            var existingUser = _users.FirstOrDefault(u => u.Id == user.Id);
+            _dbContext.Usuarios.Add(user);
+            await _dbContext.SaveChangesAsync();
+        }
+
+        public async Task UpdateAsync(Usuario user)
+        {
+            var existingUser = await _dbContext.Usuarios.FindAsync(user.Id);
             if (existingUser != null)
             {
                 existingUser.Name = user.Name;
                 existingUser.Email = user.Email;
                 existingUser.Password = user.Password;
+                await _dbContext.SaveChangesAsync();
             }
-            return Task.CompletedTask;
         }
 
-        public Task DeleteAsync(int id)
+        public async Task DeleteAsync(int id)
         {
-            var user = _users.FirstOrDefault(u => u.Id == id);
+            var user = await _dbContext.Usuarios.FindAsync(id);
             if (user != null)
             {
-                _users.Remove(user);
+                _dbContext.Usuarios.Remove(user);
+                await _dbContext.SaveChangesAsync();
             }
-            return Task.CompletedTask;
         }
     }
 }

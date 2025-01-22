@@ -1,5 +1,93 @@
 ﻿@page "/"
+@using System.Diagnostics
+@using Crud_Blazr.Core.Models
+@using Crud_Blazr.Application.Services
 
-<h1>Hello, world!</h1>
+@inject UserService UserService
+@inject NavigationManager Navigation
 
-Welcome to your new app.
+<h3>Lista de usuarios</h3>
+
+@if (isLoading)
+{
+    <p>Cargando...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Email</th>
+                <th scope="col">Teléfono</th>
+                <th scope="col">Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in users)
+            {
+                <tr>
+                    <th scope="row">@user.Id</th>
+                    <td>@user.Name</td>
+                    <td>@user.Email</td>
+                    <td>@user.Phone</td>
+                    <td>
+                        <button type="button" class="btn btn-outline-primary" @onclick="() => NavigateToEdit(user.Id)">Editar</button>
+                        <button type="button" class="btn btn-outline-danger" @onclick="() => DeleteUser(user.Id)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+
+
+    private List<Usuario> users = new();
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            users = (await UserService.GetAllUsersAsync()).ToList();
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine($"Error al cargar los usuarios: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    private void NavigateToEdit(int userId)
+    {
+        Debug.WriteLine(userId);
+        Debug.WriteLine($"useredit/{userId}");
+        // Navegar a la página de edición del usuario
+        Navigation.NavigateTo($"useredit/{userId}");
+    }
+
+    private async Task DeleteUser(int userId)
+    {
+        try
+        {
+            
+            await UserService.DeleteUserAsync(userId);
+            users = (await UserService.GetAllUsersAsync()).ToList();
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            Debug.WriteLine($"Error al borrar usuario: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+}

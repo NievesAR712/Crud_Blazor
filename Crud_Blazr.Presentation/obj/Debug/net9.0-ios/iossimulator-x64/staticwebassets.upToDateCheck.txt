@@ -1,0 +1,8 @@
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\wwwroot\css\bootstrap\bootstrap.min.css
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\wwwroot\css\bootstrap\bootstrap.min.css.map
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\wwwroot\css\app.css
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\wwwroot\index.html
+wwwroot\css\app.css
+wwwroot\css\bootstrap\bootstrap.min.css
+wwwroot\css\bootstrap\bootstrap.min.css.map
+wwwroot\index.html

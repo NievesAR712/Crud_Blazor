@@ -1,0 +1,13 @@
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Core\bin\Release\net9.0\Crud_Blazr.Core.deps.json
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Core\bin\Release\net9.0\Crud_Blazr.Core.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Core\bin\Release\net9.0\Crud_Blazr.Core.pdb
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Core\obj\Release\net9.0\Crud_Blazr.Core.csproj.AssemblyReference.cache
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Core\obj\Release\net9.0\Crud_Blazr.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Core\obj\Release\net9.0\Crud_Blazr.Core.AssemblyInfoInputs.cache
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Core\obj\Release\net9.0\Crud_Blazr.Core.AssemblyInfo.cs
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Core\obj\Release\net9.0\Crud_Blazr.Core.csproj.CoreCompileInputs.cache
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Core\obj\Release\net9.0\Crud_Blazr.Core.sourcelink.json
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Core\obj\Release\net9.0\Crud_Blazr.Core.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Core\obj\Release\net9.0\refint\Crud_Blazr.Core.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Core\obj\Release\net9.0\Crud_Blazr.Core.pdb
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Core\obj\Release\net9.0\ref\Crud_Blazr.Core.dll
