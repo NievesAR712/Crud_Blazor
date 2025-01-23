@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "Crud_Blazr.Presentation\\Crud_Blazr.Presentation.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Crud_Blazr.API\\Crud_Blazr.API.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

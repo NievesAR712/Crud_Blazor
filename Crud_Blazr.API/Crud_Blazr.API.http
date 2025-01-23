@@ -1,0 +1,7 @@
+@Crud_Blazr.API_HostAddress = http://localhost:5047
+
+
+GET {{Crud_Blazr.API_HostAddress}}/api/Usuarios/
+Accept: application/json
+
+###

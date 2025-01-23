@@ -1,25 +1,38 @@
-﻿using Crud_Blazr.Core.Interface;
-using Crud_Blazr.Core.Models;
+﻿using Crud_Blazr.Core.Models;
+using System.Net.Http.Json;
 
-namespace Crud_Blazr.Application.Services
+public class UserService
 {
-    public class UserService
+    private readonly HttpClient _httpClient;
+
+    public UserService(IHttpClientFactory httpClientFactory)
     {
-        private readonly IUserRepository _userRepository;
+        _httpClient = httpClientFactory.CreateClient("Api");
+    }
 
-        public UserService(IUserRepository userRepository)
-        {
-            _userRepository = userRepository;
-        }
+    public async Task<IEnumerable<Usuario>> GetAllUsersAsync()
+    {
+        return await _httpClient.GetFromJsonAsync<IEnumerable<Usuario>>("users");
+    }
 
-        public Task<IEnumerable<Usuario>> GetAllUsersAsync() => _userRepository.GetAllAsync();
+    public async Task<Usuario> GetUserByIdAsync(int id)
+    {
+        return await _httpClient.GetFromJsonAsync<Usuario>($"users/{id}");
+    }
 
-        public Task<Usuario> GetUserByIdAsync(int id) => _userRepository.GetByIdAsync(id);
+    public async Task AddUserAsync(Usuario user)
+    {
+        await _httpClient.PostAsJsonAsync("users", user);
+    }
 
-        public Task AddUserAsync(Usuario user) => _userRepository.AddAsync(user);
+    public async Task UpdateUserAsync(Usuario user)
+    {
+        await _httpClient.PutAsJsonAsync($"users/{user.Id}", user);
+    }
 
-        public Task UpdateUserAsync(Usuario user) => _userRepository.UpdateAsync(user);
-
-        public Task DeleteUserAsync(int id) => _userRepository.DeleteAsync(id);
+    public async Task DeleteUserAsync(int id)
+    {
+        await _httpClient.DeleteAsync($"users/{id}");
     }
 }
+

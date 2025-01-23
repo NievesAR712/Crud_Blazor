@@ -314,7 +314,6 @@ C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bi
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bin\Debug\net9.0-ios\iossimulator-x64\Crud_Blazr.Application.pdb
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bin\Debug\net9.0-ios\iossimulator-x64\Crud_Blazr.Core.pdb
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bin\Debug\net9.0-ios\iossimulator-x64\Crud_Blazr.Infrastructure.pdb
-C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\obj\Debug\net9.0-ios\iossimulator-x64\build-signature\signature
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\obj\Debug\net9.0-ios\iossimulator-x64\scopedcss\Components\Layout\MainLayout.razor.rz.scp.css
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\obj\Debug\net9.0-ios\iossimulator-x64\scopedcss\Components\Layout\NavMenu.razor.rz.scp.css
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\obj\Debug\net9.0-ios\iossimulator-x64\scopedcss\bundle\Crud_Blazr.Presentation.styles.css

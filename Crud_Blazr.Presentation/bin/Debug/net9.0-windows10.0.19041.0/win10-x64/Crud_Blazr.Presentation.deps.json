@@ -1229,7 +1229,8 @@
       },
       "Crud_Blazr.Application/1.0.0": {
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "runtime": {
           "Crud_Blazr.Application.dll": {

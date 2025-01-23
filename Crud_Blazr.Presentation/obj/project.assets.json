@@ -3759,7 +3759,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -7446,7 +7447,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -11133,7 +11135,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -14820,7 +14823,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -18507,7 +18511,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -22194,7 +22199,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -24214,7 +24220,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -26283,7 +26290,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -28352,7 +28360,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -30421,7 +30430,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -32490,7 +32500,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -34543,7 +34554,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -36451,7 +36463,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -38239,7 +38252,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -40027,7 +40041,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -41812,7 +41827,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -43600,7 +43616,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -45375,7 +45392,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -47495,7 +47513,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -49453,7 +49472,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -51411,7 +51431,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -53366,7 +53387,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -55324,7 +55346,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}
@@ -57278,7 +57301,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Crud_Blazr.Core": "1.0.0"
+          "Crud_Blazr.Core": "1.0.0",
+          "Microsoft.Extensions.Http": "9.0.1"
         },
         "compile": {
           "bin/placeholder/Crud_Blazr.Application.dll": {}

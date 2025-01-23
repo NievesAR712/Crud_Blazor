@@ -25,13 +25,17 @@ namespace Crud_Blazr.Presentation
                         Debug.WriteLine($"Unhandled exception: {exception?.Message}");
                     };
                 });
-            
-           
+
+            builder.Logging.AddDebug();
             builder.Services.AddMauiBlazorWebView();
             builder.Services.AddHttpClient<PokeApiService>();
             builder.Services.AddDbContext<AppDbContext>();  // Registra el contexto de datos
             builder.Services.AddScoped<IUserRepository, UsuarioRepository>();  // Registra el repositorio
             builder.Services.AddScoped<UserService>();
+            builder.Services.AddHttpClient("Api", client =>
+            {
+                client.BaseAddress = new Uri("https://localhost:7070/api/");
+            });
 
 #if DEBUG
             builder.Services.AddBlazorWebViewDeveloperTools();

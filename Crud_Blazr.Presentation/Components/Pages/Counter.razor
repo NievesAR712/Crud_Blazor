@@ -1,6 +1,7 @@
 ﻿@page "/counter"
 @using Crud_Blazr.Core.Models
 @using Crud_Blazr.Application.Services
+@using System.Diagnostics
 
 @inject UserService UserService
 @inject NavigationManager Navigation
@@ -49,7 +50,7 @@
         }
         catch (Exception ex)
         {
-            Console.WriteLine($"Error al agregar usuario: {ex.Message}");
+            Debug.WriteLine($"Error al agregar usuario: {ex.Message}");
         }
     }
 
