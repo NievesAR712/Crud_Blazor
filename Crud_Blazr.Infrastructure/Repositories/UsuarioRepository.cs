@@ -31,6 +31,7 @@ namespace Crud_Blazr.Infrastructure.Repositories
             {
                 existingUser.Name = user.Name;
                 existingUser.Email = user.Email;
+                existingUser.Phone = user.Phone;
                 existingUser.Password = user.Password;
                 await _dbContext.SaveChangesAsync();
             }

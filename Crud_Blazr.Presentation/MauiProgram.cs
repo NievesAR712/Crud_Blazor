@@ -19,11 +19,6 @@ namespace Crud_Blazr.Presentation
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
-                    AppDomain.CurrentDomain.UnhandledException += (sender, args) =>
-                    {
-                        var exception = args.ExceptionObject as Exception;
-                        Debug.WriteLine($"Unhandled exception: {exception?.Message}");
-                    };
                 });
 
             builder.Logging.AddDebug();
