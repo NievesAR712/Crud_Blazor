@@ -2,6 +2,7 @@
 @using Crud_Blazr.Core.Models
 @using Crud_Blazr.Application.Services
 @using System.Diagnostics
+@using Microsoft.AspNetCore.SignalR.Client
 
 @inject UserService UserService
 @inject NavigationManager Navigation
@@ -39,13 +40,26 @@
 
 @code {
     private Usuario newUser = new Usuario();
-    // Esta es la lista de usuarios. En una aplicación real, podría provenir de una base de datos o un servicio.
-    private List<Usuario> users = new List<Usuario>();
+    private HubConnection hubConnection;
+
+    protected override async Task OnInitializedAsync()
+    {
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl("https://localhost:7070/chatHub")
+            .Build();
+
+        await hubConnection.StartAsync();
+    }
+
     private async Task HandleValidSubmit()
     {
         try
         {
             await UserService.AddUserAsync(newUser);
+            if(hubConnection is not null)
+            {
+                await hubConnection.SendAsync("NotifyUserAdded", newUser.Name);
+            }
             Navigation.NavigateTo("/");
         }
         catch (Exception ex)

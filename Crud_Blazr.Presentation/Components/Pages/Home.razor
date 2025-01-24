@@ -2,6 +2,7 @@
 @using System.Diagnostics
 @using Crud_Blazr.Core.Models
 @using Crud_Blazr.Application.Services
+@using Microsoft.AspNetCore.SignalR.Client
 
 @inject UserService UserService
 @inject NavigationManager Navigation
@@ -47,12 +48,44 @@ else
 
     private List<Usuario> users = new();
     private bool isLoading = true;
+    private HubConnection? hubConnection;
+    private bool aux = false;
 
     protected override async Task OnInitializedAsync()
     {
         try
         {
+
             users = (await UserService.GetAllUsersAsync()).ToList();
+
+            hubConnection = new HubConnectionBuilder()
+            .WithUrl("https://localhost:7070/chatHub")
+            .Build();
+
+            hubConnection.On<string>("UserAdded", (userName) =>
+            {
+                Debug.WriteLine($"Nuevo Usuario agregadp: {userName}");
+                RecargarM();
+                InvokeAsync(StateHasChanged);
+            });
+
+            hubConnection.On<int>("UserDeleted", (userId) =>
+            {
+                Debug.WriteLine($"Usuario eliminado: {userId}");
+                users = users.Where(u => u.Id != userId).ToList();
+                InvokeAsync(StateHasChanged);
+
+            });
+
+            hubConnection.On<int>("UserEdit", (userId) =>
+            {
+                Debug.WriteLine($"Usuario Editado: {userId}");
+                RecargarM();
+                InvokeAsync(StateHasChanged);
+            });
+
+
+            await hubConnection.StartAsync();
         }
         catch (Exception ex)
         {
@@ -64,11 +97,14 @@ else
         }
     }
 
+    private async void RecargarM()
+    {
+        Debug.WriteLine("Recarge manualmente");
+        users = (await UserService.GetAllUsersAsync()).ToList();
+        InvokeAsync(StateHasChanged);
+    }
     private void NavigateToEdit(int userId)
     {
-        Debug.WriteLine(userId);
-        Debug.WriteLine($"useredit/{userId}");
-        // Navegar a la página de edición del usuario
         Navigation.NavigateTo($"useredit/{userId}");
     }
 
@@ -76,8 +112,12 @@ else
     {
         try
         {
-            
+
             await UserService.DeleteUserAsync(userId);
+            if(hubConnection is not null)
+            {
+                await hubConnection.SendAsync("NotifyUserDeleted", userId);
+            }
             users = (await UserService.GetAllUsersAsync()).ToList();
             StateHasChanged();
         }

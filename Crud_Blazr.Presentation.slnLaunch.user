@@ -4,7 +4,8 @@
     "Projects": [
       {
         "Path": "Crud_Blazr.Presentation\\Crud_Blazr.Presentation.csproj",
-        "Action": "Start"
+        "Action": "Start",
+        "DebugTarget": "Windows Machine"
       },
       {
         "Path": "Crud_Blazr.API\\Crud_Blazr.API.csproj",

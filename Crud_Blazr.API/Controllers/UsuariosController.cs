@@ -1,16 +1,19 @@
 ﻿using Crud_Blazr.Core.Models;
 using Crud_Blazr.Core.Interface;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
+using Crud_Blazr.API;
 
 [Route("api/[controller]")]
 [ApiController]
 public class UsersController : ControllerBase
 {
     private readonly IUserRepository _userRepository;
-
-    public UsersController(IUserRepository userRepository)
+    private readonly IHubContext<ChatHub> _hubContext;
+    public UsersController(IUserRepository userRepository, IHubContext<ChatHub> hubContext)
     {
         _userRepository = userRepository;
+        _hubContext = hubContext;
     }
 
     [HttpGet]
@@ -32,6 +35,7 @@ public class UsersController : ControllerBase
     public async Task<IActionResult> AddUser([FromBody] Usuario user)
     {
         await _userRepository.AddAsync(user);
+        await _hubContext.Clients.All.SendAsync("UserAdded",user.Name);
         return CreatedAtAction(nameof(GetUserById), new { id = user.Id }, user);
     }
 
@@ -48,6 +52,7 @@ public class UsersController : ControllerBase
     public async Task<IActionResult> DeleteUser(int id)
     {
         await _userRepository.DeleteAsync(id);
+        await _hubContext.Clients.All.SendAsync("UserDeleted", id);
         return NoContent();
     }
 }

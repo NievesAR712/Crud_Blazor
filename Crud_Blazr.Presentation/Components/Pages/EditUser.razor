@@ -1,6 +1,7 @@
 ﻿@page "/useredit/{Id:int}"
 @using Crud_Blazr.Application.Services
 @using Crud_Blazr.Core.Models
+@using Microsoft.AspNetCore.SignalR.Client
 
 @inject UserService UserService
 @inject NavigationManager Navigation
@@ -43,19 +44,30 @@ else
     [Parameter] public int Id { get; set; }
     private Usuario user;
     private bool isLoading = true;
+    private Usuario newUser = new Usuario();
+    private HubConnection hubConnection;
 
+    
     protected override async Task OnInitializedAsync()
     {
         // Cargar los detalles del usuario
         user = await UserService.GetUserByIdAsync(Id);
         isLoading = false;
+        hubConnection = new HubConnectionBuilder()
+            .WithUrl("https://localhost:7070/chatHub")
+            .Build();
+
+        await hubConnection.StartAsync();
     }
 
     private async Task HandleValidSubmit()
     {
         // Llamar al servicio para actualizar el usuario
         await UserService.UpdateUserAsync(user);
-
+        if (hubConnection is not null)
+        {
+            await hubConnection.SendAsync("NotifyUserEdit", newUser.Id);
+        }
         // Redirigir de vuelta a la lista de usuarios
         Navigation.NavigateTo("/");
     }
