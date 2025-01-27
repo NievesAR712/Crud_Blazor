@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "PAovBw4OwLo9MrXSTjIY+BpF+7g7Yzz1isL8WU30+Gs=",
+  "Hash": "N8wyNFQpbkBxHytpYBUtTaoreuqj9+sHkjEA/7SBVKk=",
   "Source": "Crud_Blazr.API",
   "BasePath": "_content/Crud_Blazr.API",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.SignalR\\Crud_Blazr.SignalR.csproj",
+      "Version": 2,
+      "Source": "Crud_Blazr.SignalR",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": [],
   "Endpoints": []

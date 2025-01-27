@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud_Blazr.Application", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud_Blazr.API", "Crud_Blazr.API\Crud_Blazr.API.csproj", "{FB2D66C0-AA11-4065-880C-ABB7A17E8855}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud_Blazr.SignalR", "Crud_Blazr.SignalR\Crud_Blazr.SignalR.csproj", "{963D8B4A-453F-4CEE-9EDF-86F36410BF93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crud_Blazr.SignalR.Serv", "Crud_Blazr.SignalR.Serv\Crud_Blazr.SignalR.Serv.csproj", "{FB54AFB4-C067-4189-82B4-82BAAE0DB2F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{FB2D66C0-AA11-4065-880C-ABB7A17E8855}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB2D66C0-AA11-4065-880C-ABB7A17E8855}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB2D66C0-AA11-4065-880C-ABB7A17E8855}.Release|Any CPU.Build.0 = Release|Any CPU
+		{963D8B4A-453F-4CEE-9EDF-86F36410BF93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{963D8B4A-453F-4CEE-9EDF-86F36410BF93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{963D8B4A-453F-4CEE-9EDF-86F36410BF93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{963D8B4A-453F-4CEE-9EDF-86F36410BF93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB54AFB4-C067-4189-82B4-82BAAE0DB2F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB54AFB4-C067-4189-82B4-82BAAE0DB2F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB54AFB4-C067-4189-82B4-82BAAE0DB2F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB54AFB4-C067-4189-82B4-82BAAE0DB2F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

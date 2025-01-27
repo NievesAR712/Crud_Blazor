@@ -610,3 +610,5 @@ C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bi
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Net.ServerSentEvents.dll
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Net.WebSockets.WebSocketProtocol.dll
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\System.Threading.Channels.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Crud_Blazr.SignalR.Serv.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bin\Debug\net9.0-windows10.0.19041.0\win10-x64\Crud_Blazr.SignalR.Serv.pdb

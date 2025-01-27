@@ -3370,6 +3370,36 @@
         "runtime": {
           "bin/placeholder/Crud_Blazr.Infrastructure.dll": {}
         }
+      },
+      "Crud_Blazr.SignalR/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Core": "1.0.0",
+          "Crud_Blazr.Infrastructure": "1.0.0",
+          "Crud_Blazr.SignalR.Serv": "1.0.0",
+          "Microsoft.AspNetCore.OpenApi": "9.0.0",
+          "Microsoft.AspNetCore.SignalR": "1.2.0"
+        },
+        "compile": {
+          "bin/placeholder/Crud_Blazr.SignalR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Crud_Blazr.SignalR.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Crud_Blazr.SignalR.Serv/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
+        }
       }
     }
   },
@@ -8742,14 +8772,24 @@
       "type": "project",
       "path": "../Crud_Blazr.Infrastructure/Crud_Blazr.Infrastructure.csproj",
       "msbuildProject": "../Crud_Blazr.Infrastructure/Crud_Blazr.Infrastructure.csproj"
+    },
+    "Crud_Blazr.SignalR/1.0.0": {
+      "type": "project",
+      "path": "../Crud_Blazr.SignalR/Crud_Blazr.SignalR.csproj",
+      "msbuildProject": "../Crud_Blazr.SignalR/Crud_Blazr.SignalR.csproj"
+    },
+    "Crud_Blazr.SignalR.Serv/1.0.0": {
+      "type": "project",
+      "path": "../Crud_Blazr.SignalR.Serv/Crud_Blazr.SignalR.Serv.csproj",
+      "msbuildProject": "../Crud_Blazr.SignalR.Serv/Crud_Blazr.SignalR.Serv.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Crud_Blazr.Core >= 1.0.0",
       "Crud_Blazr.Infrastructure >= 1.0.0",
+      "Crud_Blazr.SignalR >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.0",
-      "Microsoft.AspNetCore.SignalR >= 1.2.0",
       "Microsoft.EntityFrameworkCore >= 9.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.1",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.1",
@@ -8794,6 +8834,9 @@
             },
             "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Infrastructure\\Crud_Blazr.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Infrastructure\\Crud_Blazr.Infrastructure.csproj"
+            },
+            "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.SignalR\\Crud_Blazr.SignalR.csproj": {
+              "projectPath": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.SignalR\\Crud_Blazr.SignalR.csproj"
             }
           }
         }
@@ -8817,10 +8860,6 @@
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.0, )"
-          },
-          "Microsoft.AspNetCore.SignalR": {
-            "target": "Package",
-            "version": "[1.2.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

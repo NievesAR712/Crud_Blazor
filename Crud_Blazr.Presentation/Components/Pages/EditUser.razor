@@ -54,7 +54,7 @@ else
         user = await UserService.GetUserByIdAsync(Id);
         isLoading = false;
         hubConnection = new HubConnectionBuilder()
-            .WithUrl("https://localhost:7070/chatHub")
+            .WithUrl("https://localhost:7198/signalRHub")
             .Build();
 
         await hubConnection.StartAsync();

@@ -110,7 +110,7 @@ target triple = "aarch64-unknown-linux-android21"
 	i32 3, ; uint32_t package_naming_policy
 	i32 4, ; uint32_t environment_variable_count
 	i32 0, ; uint32_t system_property_count
-	i32 403, ; uint32_t number_of_assemblies_in_apk
+	i32 404, ; uint32_t number_of_assemblies_in_apk
 	i32 0, ; uint32_t bundled_assembly_name_width
 	i32 36, ; uint32_t number_of_dso_cache_entries
 	i32 0, ; uint32_t number_of_aot_cache_entries
@@ -388,7 +388,7 @@ target triple = "aarch64-unknown-linux-android21"
 ; Bundled assembly name buffers, all empty (unused when assembly stores are enabled)
 @bundled_assemblies = dso_local local_unnamed_addr global [0 x %struct.XamarinAndroidBundledAssembly] zeroinitializer, align 8
 
-@assembly_store_bundled_assemblies = dso_local local_unnamed_addr global [403 x %struct.AssemblyStoreSingleAssemblyRuntimeData] zeroinitializer, align 8
+@assembly_store_bundled_assemblies = dso_local local_unnamed_addr global [404 x %struct.AssemblyStoreSingleAssemblyRuntimeData] zeroinitializer, align 8
 
 @assembly_store = dso_local local_unnamed_addr global %struct.AssemblyStoreRuntimeData {
 	ptr null, ; uint8_t* data_start

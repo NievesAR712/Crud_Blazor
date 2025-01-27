@@ -1,5 +1,3 @@
-using Crud_Blazr.API;
-using Crud_Blazr.Core;
 using Crud_Blazr.Core.Interface;
 using Crud_Blazr.Infrastructure.DataAccess;
 using Crud_Blazr.Infrastructure.Repositories;
@@ -25,7 +23,6 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 app.UseCors("AllowAll");
-app.MapHub<ChatHub>("/chatHub");
 
 app.UseHttpsRedirection();
 

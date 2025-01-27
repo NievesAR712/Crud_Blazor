@@ -10,8 +10,8 @@
         "dependencies": {
           "Crud_Blazr.Core": "1.0.0",
           "Crud_Blazr.Infrastructure": "1.0.0",
+          "Crud_Blazr.SignalR": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.0",
-          "Microsoft.AspNetCore.SignalR": "1.2.0",
           "Microsoft.EntityFrameworkCore": "9.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.1",
@@ -2287,6 +2287,29 @@
             "fileVersion": "1.0.0.0"
           }
         }
+      },
+      "Crud_Blazr.SignalR/1.0.0": {
+        "dependencies": {
+          "Crud_Blazr.Core": "1.0.0",
+          "Crud_Blazr.Infrastructure": "1.0.0",
+          "Crud_Blazr.SignalR.Serv": "1.0.0",
+          "Microsoft.AspNetCore.OpenApi": "9.0.0",
+          "Microsoft.AspNetCore.SignalR": "1.2.0"
+        },
+        "runtime": {
+          "Crud_Blazr.SignalR.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Crud_Blazr.SignalR.Serv/1.0.0": {
+        "runtime": {
+          "Crud_Blazr.SignalR.Serv.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -3604,6 +3627,16 @@
       "sha512": ""
     },
     "Crud_Blazr.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Crud_Blazr.SignalR/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Crud_Blazr.SignalR.Serv/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

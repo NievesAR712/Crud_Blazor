@@ -280,3 +280,11 @@ C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\obj\Debug\n
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\obj\Debug\net9.0\Crud_Blazr.API.genruntimeconfig.cache
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\obj\Debug\net9.0\ref\Crud_Blazr.API.dll
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Crud_Blazr.SignalR.deps.json
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Crud_Blazr.SignalR.runtimeconfig.json
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Crud_Blazr.SignalR.staticwebassets.endpoints.json
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Crud_Blazr.SignalR.exe
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Crud_Blazr.SignalR.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Crud_Blazr.SignalR.pdb
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Crud_Blazr.SignalR.Serv.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Crud_Blazr.SignalR.Serv.pdb

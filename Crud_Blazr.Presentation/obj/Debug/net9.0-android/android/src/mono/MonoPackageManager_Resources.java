@@ -234,6 +234,7 @@ public class MonoPackageManager_Resources {
 		"Crud_Blazr.Application.dll",
 		"Crud_Blazr.Core.dll",
 		"Crud_Blazr.Infrastructure.dll",
+		"Crud_Blazr.SignalR.Serv.dll",
 		"_Microsoft.Android.Resource.Designer.dll",
 		"Azure.Core.dll",
 		"Azure.Identity.dll",
@@ -466,6 +467,7 @@ public class MonoPackageManager_Resources {
 		"Crud_Blazr.Application.dll",
 		"Crud_Blazr.Core.dll",
 		"Crud_Blazr.Infrastructure.dll",
+		"Crud_Blazr.SignalR.Serv.dll",
 		"_Microsoft.Android.Resource.Designer.dll",
 	};
 	public static String[] Dependencies = new String[]{

@@ -1,8 +1,10 @@
 ﻿@page "/"
 @using System.Diagnostics
 @using Crud_Blazr.Core.Models
+@using Crud_Blazr.SignalR.Serv.Enums
 @using Crud_Blazr.Application.Services
 @using Microsoft.AspNetCore.SignalR.Client
+
 
 @inject UserService UserService
 @inject NavigationManager Navigation
@@ -49,7 +51,6 @@ else
     private List<Usuario> users = new();
     private bool isLoading = true;
     private HubConnection? hubConnection;
-    private bool aux = false;
 
     protected override async Task OnInitializedAsync()
     {
@@ -59,7 +60,7 @@ else
             users = (await UserService.GetAllUsersAsync()).ToList();
 
             hubConnection = new HubConnectionBuilder()
-            .WithUrl("https://localhost:7070/chatHub")
+            .WithUrl("https://localhost:7198/signalRHub")
             .Build();
 
             hubConnection.On<string>("UserAdded", (userName) =>
@@ -80,6 +81,12 @@ else
             hubConnection.On<int>("UserEdit", (userId) =>
             {
                 Debug.WriteLine($"Usuario Editado: {userId}");
+                RecargarM();
+                InvokeAsync(StateHasChanged);
+            });
+            hubConnection.On<CommandType>("UserDeleted", (commandType) =>
+            {
+                Debug.WriteLine($"Usuario eliminadocon comando");
                 RecargarM();
                 InvokeAsync(StateHasChanged);
             });
@@ -116,7 +123,7 @@ else
             await UserService.DeleteUserAsync(userId);
             if(hubConnection is not null)
             {
-                await hubConnection.SendAsync("NotifyUserDeleted", userId);
+                await hubConnection.SendAsync("Commandos", CommandType.DeleteUser);
             }
             users = (await UserService.GetAllUsersAsync()).ToList();
             StateHasChanged();

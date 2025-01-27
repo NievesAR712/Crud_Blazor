@@ -96,6 +96,7 @@
       <ProjectReference Include="..\Crud_Blazr.Application\Crud_Blazr.Application.csproj" />
       <ProjectReference Include="..\Crud_Blazr.Core\Crud_Blazr.Core.csproj" />
       <ProjectReference Include="..\Crud_Blazr.Infrastructure\Crud_Blazr.Infrastructure.csproj" />
+      <ProjectReference Include="..\Crud_Blazr.SignalR.Serv\Crud_Blazr.SignalR.Serv.csproj" />
     </ItemGroup>
 
 </Project>

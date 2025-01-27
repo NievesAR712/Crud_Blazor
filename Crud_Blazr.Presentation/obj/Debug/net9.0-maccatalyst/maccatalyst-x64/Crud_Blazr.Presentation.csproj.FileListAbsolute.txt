@@ -415,3 +415,5 @@ C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bi
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Newtonsoft.Json.dll
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Net.ServerSentEvents.dll
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Crud_Blazr.SignalR.Serv.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.Presentation\bin\Debug\net9.0-maccatalyst\maccatalyst-x64\Crud_Blazr.SignalR.Serv.pdb

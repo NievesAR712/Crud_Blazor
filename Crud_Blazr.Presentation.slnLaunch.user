@@ -10,6 +10,10 @@
       {
         "Path": "Crud_Blazr.API\\Crud_Blazr.API.csproj",
         "Action": "Start"
+      },
+      {
+        "Path": "Crud_Blazr.SignalR\\Crud_Blazr.SignalR.csproj",
+        "Action": "Start"
       }
     ]
   }

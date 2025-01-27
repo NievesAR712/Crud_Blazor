@@ -12,6 +12,7 @@
           "Crud_Blazr.Application": "1.0.0",
           "Crud_Blazr.Core": "1.0.0",
           "Crud_Blazr.Infrastructure": "1.0.0",
+          "Crud_Blazr.SignalR.Serv": "1.0.0",
           "Microsoft.AspNetCore.Components.WebView.Maui": "9.0.0",
           "Microsoft.AspNetCore.SignalR": "1.2.0",
           "Microsoft.AspNetCore.SignalR.Client": "9.0.1",
@@ -1625,6 +1626,14 @@
           }
         }
       },
+      "Crud_Blazr.SignalR.Serv/1.0.0": {
+        "runtime": {
+          "Crud_Blazr.SignalR.Serv.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "Microsoft.Web.WebView2.Core.Projection/1.0.2792.45": {
         "runtime": {
           "Microsoft.Web.WebView2.Core.Projection.dll": {
@@ -2616,6 +2625,11 @@
       "sha512": ""
     },
     "Crud_Blazr.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Crud_Blazr.SignalR.Serv/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

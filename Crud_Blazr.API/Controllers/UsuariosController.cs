@@ -2,15 +2,15 @@
 using Crud_Blazr.Core.Interface;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
-using Crud_Blazr.API;
+using Crud_Blazr.SignalR.Controllers;
 
 [Route("api/[controller]")]
 [ApiController]
 public class UsersController : ControllerBase
 {
     private readonly IUserRepository _userRepository;
-    private readonly IHubContext<ChatHub> _hubContext;
-    public UsersController(IUserRepository userRepository, IHubContext<ChatHub> hubContext)
+    private readonly IHubContext<SignalRController> _hubContext;
+    public UsersController(IUserRepository userRepository, IHubContext<SignalRController> hubContext)
     {
         _userRepository = userRepository;
         _hubContext = hubContext;
