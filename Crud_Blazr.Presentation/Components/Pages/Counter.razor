@@ -2,7 +2,10 @@
 @using Crud_Blazr.Core.Models
 @using Crud_Blazr.Application.Services
 @using System.Diagnostics
+@using Crud_Blazr.SignalR.Serv.Comandos
+@using Crud_Blazr.SignalR.Serv.Enums
 @using Microsoft.AspNetCore.SignalR.Client
+@using System.Text.Json
 
 @inject UserService UserService
 @inject NavigationManager Navigation
@@ -56,9 +59,9 @@
         try
         {
             await UserService.AddUserAsync(newUser);
-            if(hubConnection is not null)
+            if (hubConnection is not null)
             {
-                await hubConnection.SendAsync("NotifyUserAdded", newUser.Name);
+                await hubConnection.SendAsync("IncomingMessage", new ComandoUser { Command = CommandType.AddUser, Data = JsonSerializer.Serialize(newUser) });
             }
             Navigation.NavigateTo("/");
         }

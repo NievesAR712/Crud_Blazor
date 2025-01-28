@@ -4345,6 +4345,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -8591,6 +8595,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -12837,6 +12845,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -17083,6 +17095,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -21329,6 +21345,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -25575,6 +25595,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -28163,6 +28187,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -30800,6 +30828,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -33437,6 +33469,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -36074,6 +36110,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -38711,6 +38751,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -41332,6 +41376,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -43808,6 +43856,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -46164,6 +46216,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -48520,6 +48576,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -50873,6 +50933,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -53229,6 +53293,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -55572,6 +55640,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -58260,6 +58332,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -60786,6 +60862,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -63312,6 +63392,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -65835,6 +65919,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -68361,6 +68449,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },
@@ -70883,6 +70975,10 @@
       "Crud_Blazr.SignalR.Serv/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Crud_Blazr.SignalR.Serv.dll": {}
         },

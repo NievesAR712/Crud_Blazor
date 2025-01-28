@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Crud_Blazr.Application\Crud_Blazr.Application.csproj" />
+    <ProjectReference Include="..\Crud_Blazr.Core\Crud_Blazr.Core.csproj" />
+  </ItemGroup>
+
 </Project>

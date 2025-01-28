@@ -654,7 +654,14 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Application\\Crud_Blazr.Application.csproj": {
+                "projectPath": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Application\\Crud_Blazr.Application.csproj"
+              },
+              "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Core\\Crud_Blazr.Core.csproj": {
+                "projectPath": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Core\\Crud_Blazr.Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

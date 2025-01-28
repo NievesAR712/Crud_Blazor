@@ -1627,6 +1627,10 @@
         }
       },
       "Crud_Blazr.SignalR.Serv/1.0.0": {
+        "dependencies": {
+          "Crud_Blazr.Application": "1.0.0",
+          "Crud_Blazr.Core": "1.0.0"
+        },
         "runtime": {
           "Crud_Blazr.SignalR.Serv.dll": {
             "assemblyVersion": "1.0.0",

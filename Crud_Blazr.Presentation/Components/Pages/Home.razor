@@ -1,9 +1,11 @@
 ﻿@page "/"
 @using System.Diagnostics
 @using Crud_Blazr.Core.Models
+@using Crud_Blazr.SignalR.Serv.Comandos
 @using Crud_Blazr.SignalR.Serv.Enums
 @using Crud_Blazr.Application.Services
 @using Microsoft.AspNetCore.SignalR.Client
+@using System.Text.Json
 
 
 @inject UserService UserService
@@ -37,7 +39,7 @@ else
                     <td>@user.Phone</td>
                     <td>
                         <button type="button" class="btn btn-outline-primary" @onclick="() => NavigateToEdit(user.Id)">Editar</button>
-                        <button type="button" class="btn btn-outline-danger" @onclick="() => DeleteUser(user.Id)">Eliminar</button>
+                        <button type="button" class="btn btn-outline-danger" @onclick="() => DeleteUser(user)">Eliminar</button>
                     </td>
                 </tr>
             }
@@ -46,8 +48,6 @@ else
 }
 
 @code {
-
-
     private List<Usuario> users = new();
     private bool isLoading = true;
     private HubConnection? hubConnection;
@@ -63,30 +63,27 @@ else
             .WithUrl("https://localhost:7198/signalRHub")
             .Build();
 
-            hubConnection.On<string>("UserAdded", (userName) =>
+            /*hubConnection.On<string>("UserDeleted", (data) =>
             {
-                Debug.WriteLine($"Nuevo Usuario agregadp: {userName}");
+                Debug.WriteLine($"Usuario eliminadocon comando: {data}");
                 RecargarM();
                 InvokeAsync(StateHasChanged);
             });
-
-            hubConnection.On<int>("UserDeleted", (userId) =>
+            hubConnection.On<string>("UserAdded", (data) =>
             {
-                Debug.WriteLine($"Usuario eliminado: {userId}");
-                users = users.Where(u => u.Id != userId).ToList();
-                InvokeAsync(StateHasChanged);
-
-            });
-
-            hubConnection.On<int>("UserEdit", (userId) =>
-            {
-                Debug.WriteLine($"Usuario Editado: {userId}");
+                Debug.WriteLine($"Usuario agregado con comando: {data}");
                 RecargarM();
                 InvokeAsync(StateHasChanged);
             });
-            hubConnection.On<CommandType>("UserDeleted", (commandType) =>
+            hubConnection.On<string>("UserEdit", (data) =>
             {
-                Debug.WriteLine($"Usuario eliminadocon comando");
+                Debug.WriteLine($"Usuario editado con comando: {data}");
+                RecargarM();
+                InvokeAsync(StateHasChanged);
+            });*/
+            hubConnection.On<string>("IncomingMessage", (message) =>
+    {
+                Console.WriteLine($"Mensaje recibido: {message}");
                 RecargarM();
                 InvokeAsync(StateHasChanged);
             });
@@ -115,15 +112,18 @@ else
         Navigation.NavigateTo($"useredit/{userId}");
     }
 
-    private async Task DeleteUser(int userId)
+    private async Task DeleteUser(Usuario user)
     {
         try
         {
-
-            await UserService.DeleteUserAsync(userId);
+            await UserService.DeleteUserAsync(user.Id);
+            /*if(hubConnection is not null)
+            {
+                await hubConnection.SendAsync("Commandos", new ComandoUser { Command = CommandType.DeleteUser, Data = JsonSerializer.Serialize(user)} );
+            }*/
             if(hubConnection is not null)
             {
-                await hubConnection.SendAsync("Commandos", CommandType.DeleteUser);
+                await hubConnection.SendAsync("IncomingMessage", new ComandoUser { Command = CommandType.DeleteUser, Data = JsonSerializer.Serialize(user) });
             }
             users = (await UserService.GetAllUsersAsync()).ToList();
             StateHasChanged();

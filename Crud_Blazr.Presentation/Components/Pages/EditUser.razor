@@ -1,7 +1,10 @@
 ﻿@page "/useredit/{Id:int}"
 @using Crud_Blazr.Application.Services
 @using Crud_Blazr.Core.Models
+@using Crud_Blazr.SignalR.Serv.Comandos
+@using Crud_Blazr.SignalR.Serv.Enums
 @using Microsoft.AspNetCore.SignalR.Client
+@using System.Text.Json
 
 @inject UserService UserService
 @inject NavigationManager Navigation
@@ -66,7 +69,7 @@ else
         await UserService.UpdateUserAsync(user);
         if (hubConnection is not null)
         {
-            await hubConnection.SendAsync("NotifyUserEdit", newUser.Id);
+            await hubConnection.SendAsync("IncomingMessage", new ComandoUser { Command = CommandType.UpdateUser, Data = JsonSerializer.Serialize(user) });
         }
         // Redirigir de vuelta a la lista de usuarios
         Navigation.NavigateTo("/");

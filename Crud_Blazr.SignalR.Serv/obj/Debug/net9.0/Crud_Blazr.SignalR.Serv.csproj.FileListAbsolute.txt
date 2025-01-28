@@ -10,3 +10,9 @@ C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.SignalR.Serv\ob
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.SignalR.Serv\obj\Debug\net9.0\refint\Crud_Blazr.SignalR.Serv.dll
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.SignalR.Serv\obj\Debug\net9.0\Crud_Blazr.SignalR.Serv.pdb
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.SignalR.Serv\obj\Debug\net9.0\ref\Crud_Blazr.SignalR.Serv.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.SignalR.Serv\bin\Debug\net9.0\Crud_Blazr.Application.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.SignalR.Serv\bin\Debug\net9.0\Crud_Blazr.Core.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.SignalR.Serv\bin\Debug\net9.0\Crud_Blazr.Application.pdb
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.SignalR.Serv\bin\Debug\net9.0\Crud_Blazr.Core.pdb
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.SignalR.Serv\obj\Debug\net9.0\Crud_Blazr.SignalR.Serv.csproj.AssemblyReference.cache
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.SignalR.Serv\obj\Debug\net9.0\Crud_Bla.CB6D38DA.Up2Date

@@ -288,3 +288,11 @@ C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\n
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Crud_Blazr.SignalR.pdb
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Crud_Blazr.SignalR.Serv.dll
 C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Crud_Blazr.SignalR.Serv.pdb
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Microsoft.Extensions.Http.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Crud_Blazr.Application.dll
+C:\Users\anieves\source\repos\Crud_Blazr.Presentation\Crud_Blazr.API\bin\Debug\net9.0\Crud_Blazr.Application.pdb

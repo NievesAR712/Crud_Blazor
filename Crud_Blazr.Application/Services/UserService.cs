@@ -10,6 +10,10 @@ public class UserService
         _httpClient = httpClientFactory.CreateClient("Api");
     }
 
+    public UserService()
+    {
+    }
+
     public async Task<IEnumerable<Usuario>> GetAllUsersAsync()
     {
         return await _httpClient.GetFromJsonAsync<IEnumerable<Usuario>>("users");
