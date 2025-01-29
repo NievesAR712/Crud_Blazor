@@ -1,40 +1,57 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Linq;
-using System.Text;
-using System.Text.Json;
+using System.Net.Http;
 using System.Threading.Tasks;
-using Crud_Blazr.Core.Models;
+using System.Text.Json;
 using Crud_Blazr.SignalR.Serv.Enums;
 using Crud_Blazr.SignalR.Serv.Interfaces;
+using System.Windows.Markup;
 
 namespace Crud_Blazr.SignalR.Serv.Comandos
 {
     public class DeleteUser : IEntryCommandHandler
     {
-        private Usuario User = new Usuario();
-        UserService userService = new UserService();
-        public Task<ComandoUser> Execute(ComandoUser user)
+        private static readonly HttpClient _httpClient = new HttpClient();  
+        public int Id { get; set; }
+        public async Task<ComandoUser> Execute(ComandoUser commandData)
         {
-            ComandoUser GetCommand()
-            {
-                User = JsonSerializer.Deserialize<Usuario>(user.Data);
-                Debug.WriteLine(user.Data);
-                Correr(User);
-                return new ComandoUser
-                {
-                    Command = CommandType.DeleteUser,
-                    Data = string.Empty
-                };
-            }
-            var outCommand = GetCommand();
-            return Task.FromResult(outCommand);
-        }
+            // Aquí suponemos que 'Data' es un string JSON con la información del usuario o datos a eliminar
+            var data = JsonSerializer.Deserialize<Dictionary<string, JsonElement>>(commandData.Data);
 
-        public async Task Correr(Usuario usuario)
-        {
-            await userService.DeleteUserAsync(usuario.Id);
+            if (data != null && data.ContainsKey("Id"))
+            {
+                var idElement = data["Id"];
+
+                // Verifica si el elemento es un número y lo convierte
+                if (idElement.TryGetInt32(out int id))
+                {
+                    Id = id;    
+                    Console.WriteLine($"Id: {id}");
+                }
+                else
+                {
+                    // Si no es un número, puedes manejar el caso de otra forma
+                    Console.WriteLine("El Id no es un número válido.");
+                }
+            }
+            // Llamada a la API para eliminar datos
+            var apiUrl = $"https://localhost:7070/api/users/{Id}";  // URL dinámica para las operaciones
+            var response = await _httpClient.DeleteAsync(apiUrl);  // Solicitud DELETE
+
+            if (response.IsSuccessStatusCode)
+            {
+                Console.WriteLine("Operación de eliminación exitosa.");
+            }
+            else
+            {
+                Console.WriteLine($"Error al eliminar datos: {response.ReasonPhrase}");
+            }
+
+            // Crear un nuevo comando de respuesta (sin necesidad de datos específicos)
+            return new ComandoUser
+            {
+                Command = commandData.Command,  // Comando recibido
+                Data = commandData.Data         // Datos recibidos (en este caso JSON o string genérico)
+            };
         }
     }
 }

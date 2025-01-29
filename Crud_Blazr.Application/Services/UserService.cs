@@ -3,15 +3,12 @@ using System.Net.Http.Json;
 
 public class UserService
 {
+    
     private readonly HttpClient _httpClient;
-
+    private readonly IHttpClientFactory _httpClientFactory;
     public UserService(IHttpClientFactory httpClientFactory)
     {
         _httpClient = httpClientFactory.CreateClient("Api");
-    }
-
-    public UserService()
-    {
     }
 
     public async Task<IEnumerable<Usuario>> GetAllUsersAsync()

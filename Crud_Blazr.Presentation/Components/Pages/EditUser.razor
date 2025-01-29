@@ -66,13 +66,12 @@ else
     private async Task HandleValidSubmit()
     {
         // Llamar al servicio para actualizar el usuario
-        await UserService.UpdateUserAsync(user);
         if (hubConnection is not null)
         {
             await hubConnection.SendAsync("IncomingMessage", new ComandoUser { Command = CommandType.UpdateUser, Data = JsonSerializer.Serialize(user) });
         }
-        // Redirigir de vuelta a la lista de usuarios
-        Navigation.NavigateTo("/");
+        StateHasChanged();
+        
     }
 
     private void NavigateBack()

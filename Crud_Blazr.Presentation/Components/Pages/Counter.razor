@@ -58,12 +58,12 @@
     {
         try
         {
-            await UserService.AddUserAsync(newUser);
             if (hubConnection is not null)
             {
                 await hubConnection.SendAsync("IncomingMessage", new ComandoUser { Command = CommandType.AddUser, Data = JsonSerializer.Serialize(newUser) });
             }
-            Navigation.NavigateTo("/");
+            StateHasChanged();
+            
         }
         catch (Exception ex)
         {

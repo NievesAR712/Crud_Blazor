@@ -14,6 +14,7 @@ builder.Services.AddSignalR();
 builder.Services.AddOpenApi();
 builder.Logging.SetMinimumLevel(LogLevel.Debug);
 
+
 var app = builder.Build();
 app.UseCors(c => c.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod());
 

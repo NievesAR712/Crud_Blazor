@@ -56,37 +56,19 @@ else
     {
         try
         {
-
             users = (await UserService.GetAllUsersAsync()).ToList();
 
             hubConnection = new HubConnectionBuilder()
             .WithUrl("https://localhost:7198/signalRHub")
             .Build();
 
-            /*hubConnection.On<string>("UserDeleted", (data) =>
-            {
-                Debug.WriteLine($"Usuario eliminadocon comando: {data}");
-                RecargarM();
-                InvokeAsync(StateHasChanged);
-            });
-            hubConnection.On<string>("UserAdded", (data) =>
-            {
-                Debug.WriteLine($"Usuario agregado con comando: {data}");
-                RecargarM();
-                InvokeAsync(StateHasChanged);
-            });
-            hubConnection.On<string>("UserEdit", (data) =>
-            {
-                Debug.WriteLine($"Usuario editado con comando: {data}");
-                RecargarM();
-                InvokeAsync(StateHasChanged);
-            });*/
-            hubConnection.On<string>("IncomingMessage", (message) =>
-    {
-                Console.WriteLine($"Mensaje recibido: {message}");
-                RecargarM();
-                InvokeAsync(StateHasChanged);
-            });
+            hubConnection.On<ComandoUser>("IncomingMessage", (command) =>
+                {
+                    Debug.WriteLine($"Mensaje recibido: {command.Data}");
+                    RecargarM();
+                    Navigation.NavigateTo("/");
+                    InvokeAsync(StateHasChanged);
+                });
 
 
             await hubConnection.StartAsync();
@@ -103,7 +85,7 @@ else
 
     private async void RecargarM()
     {
-        Debug.WriteLine("Recarge manualmente");
+        Debug.WriteLine("Recargado manualmente");
         users = (await UserService.GetAllUsersAsync()).ToList();
         InvokeAsync(StateHasChanged);
     }
@@ -116,12 +98,8 @@ else
     {
         try
         {
-            await UserService.DeleteUserAsync(user.Id);
-            /*if(hubConnection is not null)
-            {
-                await hubConnection.SendAsync("Commandos", new ComandoUser { Command = CommandType.DeleteUser, Data = JsonSerializer.Serialize(user)} );
-            }*/
-            if(hubConnection is not null)
+            //await UserService.DeleteUserAsync(user.Id);
+            if (hubConnection is not null)
             {
                 await hubConnection.SendAsync("IncomingMessage", new ComandoUser { Command = CommandType.DeleteUser, Data = JsonSerializer.Serialize(user) });
             }
@@ -138,3 +116,4 @@ else
         }
     }
 }
+   

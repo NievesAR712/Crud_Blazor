@@ -1,42 +1,69 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net.NetworkInformation;
-using System.Text;
+using System.Net.Http;
 using System.Threading.Tasks;
+using System.Text.Json;
 using Crud_Blazr.SignalR.Serv.Enums;
 using Crud_Blazr.SignalR.Serv.Interfaces;
-using Crud_Blazr.Application.Services;
-using Crud_Blazr.Core.Models;
-using System.Text.Json;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace Crud_Blazr.SignalR.Serv.Comandos
 {
     public class AddUser : IEntryCommandHandler
     {
-        private Usuario newUser = new Usuario();
-        UserService userService = new UserService();
-        public Task<ComandoUser> Execute(ComandoUser user)
+        private static readonly HttpClient _httpClient = new HttpClient();  // HttpClient estático para evitar inyección de dependencias
+        public async Task<ComandoUser> Execute(ComandoUser commandData)
         {
-            ComandoUser GetCommand()
-            {
-                newUser = JsonSerializer.Deserialize<Usuario>(user.Data);
-                Debug.WriteLine(user.Data);
-                Correr(newUser);
-                return new ComandoUser
-                {
-                    Command = CommandType.AddUser,
-                    Data = string.Empty
-                };    
-            }
-            var outCommand = GetCommand();
-            return Task.FromResult(outCommand);
-        }
+            // Deserializa el JSON recibido a un Diccionario de claves y valores
+            var data = JsonSerializer.Deserialize<Dictionary<string, JsonElement>>(commandData.Data);
 
-        public async Task Correr(Usuario usuario)
-        {
-            await userService.AddUserAsync(usuario);
+            if (data != null && data.ContainsKey("Name") && data.ContainsKey("Email"))
+            {
+                var nameElement = data["Name"];
+                var emailElement = data["Email"];
+                var phoneElement = data.GetValueOrDefault("Phone");
+                var passwordElement = data.GetValueOrDefault("Password");
+
+                // Verifica y obtiene los valores como strings
+                if (nameElement.ValueKind == JsonValueKind.String && emailElement.ValueKind == JsonValueKind.String)
+                {
+                    var name = nameElement.GetString();
+                    var email = emailElement.GetString();
+                    var phone = phoneElement.ValueKind == JsonValueKind.String ? phoneElement.GetString() : null;
+                    var password = passwordElement.ValueKind == JsonValueKind.String ? passwordElement.GetString() : null;
+
+                    // URL de la API para agregar un nuevo usuario
+                    var apiUrl = "https://localhost:7070/api/users";
+                    var jsonContent = JsonSerializer.Serialize(new { Name = name, Email = email, Phone = phone, Password = password });
+                    var content = new StringContent(jsonContent, System.Text.Encoding.UTF8, "application/json");
+
+                    var response = await _httpClient.PostAsync(apiUrl, content);  // Solicitud POST
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        Debug.WriteLine("Usuario agregado exitosamente.");
+                    }
+                    else
+                    {
+                        Debug.WriteLine($"Error al agregar usuario: {response.ReasonPhrase}");
+                    }
+                }
+                else
+                {
+                    Debug.WriteLine("Datos de usuario inválidos.");
+                }
+            }
+            else
+            {
+                Debug.WriteLine("Datos de usuario incompletos.");
+            }
+
+            // Crear y retornar el comando de respuesta (sin datos específicos)
+            return new ComandoUser
+            {
+                Command = commandData.Command,
+                Data = commandData.Data
+            };
         }
     }
 }

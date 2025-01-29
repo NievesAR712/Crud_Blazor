@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Crud_Blazr.SignalR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+893fae26664dc7e6777ef7b71e4318539c34b897")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4515e61f8c60e5ffbbd76810ff3fb6d4e0851918")]
 [assembly: System.Reflection.AssemblyProductAttribute("Crud_Blazr.SignalR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Crud_Blazr.SignalR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

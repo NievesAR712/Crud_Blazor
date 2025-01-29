@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Text.Json;
 using Crud_Blazr.SignalR.Serv.Comandos;
 using Crud_Blazr.SignalR.Serv.Diccionario;
 using Crud_Blazr.SignalR.Serv.Enums;
@@ -19,27 +20,6 @@ namespace Crud_Blazr.SignalR.Controllers
             // Envía un mensaje a todos los clientes conectados
             await Clients.All.SendAsync("ReceiveMessage", user, message);
         }
-        public async Task Commandos(ComandoUser comandoUser)
-        {
-            switch (comandoUser.Command)
-            {
-                case CommandType.AddUser:
-                    Debug.WriteLine("SE AGREGO");
-                    await Clients.All.SendAsync("UserAdded", comandoUser.Data);
-                    break;
-                case CommandType.UpdateUser:
-                    await Clients.All.SendAsync("UserEdit", comandoUser.Data);
-                    Debug.WriteLine("Se actualizo");
-                    break;
-                case CommandType.DeleteUser:
-                    Debug.WriteLine($"Se elimino: {comandoUser.Data}");
-                    await Clients.All.SendAsync("UserDeleted",comandoUser.Data);
-                    break;
-                default:
-                    Debug.WriteLine("No se encontro el comando");
-                    break;
-            }
-        }
         public async Task IncomingMessage(ComandoUser comandoUser)
         {
             var commandType = comandoUser.Command;
@@ -47,7 +27,8 @@ namespace Crud_Blazr.SignalR.Controllers
             if (commandHandlerService.Commands.TryGetValue((Serv.Enums.CommandType)commandType, out var command))
             {
                 var result = await command.Execute(comandoUser);
-                await Clients.All.SendAsync("IncomingMessage", comandoUser.Data);
+                Debug.WriteLine(result.GetType());
+                await Clients.All.SendAsync("IncomingMessage", result);
                 Debug.WriteLine($"Comando ejecutado: {commandType}");
             }
             else
