@@ -9,6 +9,7 @@
     ".NETCoreApp,Version=v9.0/win10-x64": {
       "Crud_Blazr.Presentation/1.0": {
         "dependencies": {
+          "Blazor.Bootstrap": "3.3.0",
           "Crud_Blazr.Application": "1.0.0",
           "Crud_Blazr.Core": "1.0.0",
           "Crud_Blazr.Infrastructure": "1.0.0",
@@ -73,6 +74,17 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.11.4.0",
             "fileVersion": "1.1100.424.31005"
+          }
+        }
+      },
+      "Blazor.Bootstrap/3.3.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "9.0.0"
+        },
+        "runtime": {
+          "lib/net9.0/BlazorBootstrap.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.0.0"
           }
         }
       },
@@ -1672,6 +1684,13 @@
       "sha512": "sha512-Sf4BoE6Q3jTgFkgBkx7qztYOFELBCo+wQgpYDwal/qJ1unBH73ywPztIJKXBXORRzAeNijsuxhk94h0TIMvfYg==",
       "path": "azure.identity/1.11.4",
       "hashPath": "azure.identity.1.11.4.nupkg.sha512"
+    },
+    "Blazor.Bootstrap/3.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N/EoJhY2PHdA5aVXgXEMZ74XuOPJrf01qDFfSWOQqaNf6QULIoWpcEtcfgJgq9RUCeNlLj1FYG/o5COpmCQGpw==",
+      "path": "blazor.bootstrap/3.3.0",
+      "hashPath": "blazor.bootstrap.3.3.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.3.0": {
       "type": "package",

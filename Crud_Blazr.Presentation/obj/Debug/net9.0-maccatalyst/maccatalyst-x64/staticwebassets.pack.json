@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

@@ -15,7 +15,7 @@
 <EditForm Model="@newUser" OnValidSubmit="HandleValidSubmit">
     <DataAnnotationsValidator />
     <ValidationSummary />
-
+    
     <div>
         <label for="name">Nombre:</label>
         <InputText id="name" class="form-control" @bind-Value="newUser.Name" />

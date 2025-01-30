@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Crud_Blazr.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+069ab9bdb359f27c1e9b1ede4b07a5ae694cf613")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82918604208adc6463a38a5f58a619060232a194")]
 [assembly: System.Reflection.AssemblyProductAttribute("Crud_Blazr.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Crud_Blazr.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

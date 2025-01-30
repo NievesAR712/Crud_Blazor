@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1K1AuRIWBxdi+jivvv9TwkBY+upGcj2p8NFkaA81yIU=",
+  "Hash": "NzpxmBq7BueHRMxFOR8nyuLZsqwPseaS/127MAS5z/E=",
   "Source": "Crud_Blazr.Presentation",
   "BasePath": "/",
   "Mode": "Root",
@@ -16,6 +16,237 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "7t9tbfaemk",
+      "Integrity": "FYJNevdgdMX4R7rEhQxDvKVdV5SyZSlRT4eVSU+Lgyk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.css",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "63oqyoiiv4",
+      "Integrity": "jqE3jyGxWnCTc0Y7oGfHKZOpZM9udgb38MQGLaxmkNc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.js",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3vls56qr6z",
+      "Integrity": "UUVxM8Rwh7KY+uVT0zQAQlai2SG1I4hkljmKiXsgEYw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.js"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.pdf.js",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.pdf.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ct0ej5e0q0",
+      "Integrity": "oAIj2P0Z/6hTwjGA3OGvWLdxMP4KwE35+AQzWQTpxAg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.pdf.js"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.sortable-list.js",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.sortable-list.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ezlxc6gzv3",
+      "Integrity": "du71NM6e2+m9l81ldV+Gbr74ER7Xx1GnJFg+rIY6OQU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.sortable-list.js"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.theme-switcher.js",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.theme-switcher.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pisakkcwob",
+      "Integrity": "Hy2y6B5ohWPnmWg4c52+QUuZGTw8r09KtWKcaGiaa/k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.theme-switcher.js"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\icon\\128X128.png",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "icon/128X128.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tngynhsog2",
+      "Integrity": "J1yB7ftYf6PWiU1781eE0JHBGfd1MV/XlLaxpVy09RU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\icon\\128X128.png"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\pdfjs-4.0.379.min.js",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "pdfjs-4.0.379.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "j8zp7bt7w3",
+      "Integrity": "XX7we2CiSWzj3rsNtKFCod90LBYAJ3bo8rmu4EuN7SQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\pdfjs-4.0.379.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\pdfjs-4.0.379.worker.min.js",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "pdfjs-4.0.379.worker.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "79hai7knhw",
+      "Integrity": "JbwqIn9Fic7JuWyTXuNnAA1T0dYQ2tkTi9HhrSltUtQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\pdfjs-4.0.379.worker.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\36w3eu0hkb-j8zp7bt7w3.gz",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "pdfjs-4.0.379.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\pdfjs-4.0.379.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "t224jey6k9",
+      "Integrity": "e5GjvOPQaaLZ9dNtoNRO73cMnfQyFoPTRZai00f9zro=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\pdfjs-4.0.379.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\51hewvdo46-kzpegwi3fw.gz",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "/",
+      "RelativePath": "css/styles#[.{fingerprint=kzpegwi3fw}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\styles.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "ls9as20fuy",
+      "Integrity": "FfT1mM9EV3RIs25E2p9gzK8MvlhKhnHrUBOw6t9u4vI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\styles.css"
+    },
     {
       "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\6b3dax2paz-6h7q8o06po.gz",
       "SourceId": "Crud_Blazr.Presentation",
@@ -59,6 +290,27 @@
       "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\d5o4a4wkq9-ct0ej5e0q0.gz",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.pdf.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.pdf.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "pudhg2mr2z",
+      "Integrity": "nydqqtOof6+f+PmQ4A0NAUA1P0gq6mnIXz2Bxnb67hU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.pdf.js"
+    },
+    {
       "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\d8sbmw5lkg-8inm30yfxf.gz",
       "SourceId": "Crud_Blazr.Presentation",
       "SourceType": "Discovered",
@@ -78,6 +330,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\eojifsclv0-7t9tbfaemk.gz",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "nnutu22z9j",
+      "Integrity": "jbm+/Hzc+zGQG2gUx0nA7qItPOkK7/gq7oguIlSsHGA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\mfzx4sb2rv-79hai7knhw.gz",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "pdfjs-4.0.379.worker.min.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\pdfjs-4.0.379.worker.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "32c464qnh4",
+      "Integrity": "9TNoEYsYuIKggcIqkZQ31ttX9PkR4QGQJXypC0zEfPI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\pdfjs-4.0.379.worker.min.js"
     },
     {
       "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\mwpvqeeert-e5tk7yf482.gz",
@@ -101,12 +395,75 @@
       "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\app.css"
     },
     {
-      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-wkhd9b2as5.gz",
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\q8v6i1uv3e-pisakkcwob.gz",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.theme-switcher.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.theme-switcher.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "oh8ui0tvm8",
+      "Integrity": "hJfIzc79/b2DvnBKYWn0IBrKaIy/wIxga6SGtKsdW3c=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.theme-switcher.js"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\refgsao5tb-3vls56qr6z.gz",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "p6m3s7l3a0",
+      "Integrity": "Eburdp4ExWpUBm6R/BMCs1L6WQSkSUmzFpYPpUM/1FM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.js"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\sismm8xg1l-ezlxc6gzv3.gz",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.sortable-list.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.sortable-list.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "02r3e3vot4",
+      "Integrity": "uFVvFFB+3W83uAUE+4Ua0lEvBhAsKvujonlqjLwrL28=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.sortable-list.js"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-47pkzhq1sq.gz",
       "SourceId": "Crud_Blazr.Presentation",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "index#[.{fingerprint=wkhd9b2as5}]?.html.gz",
+      "RelativePath": "index#[.{fingerprint=47pkzhq1sq}]?.html.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -115,19 +472,19 @@
       "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "09xpro80wc",
-      "Integrity": "lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90=",
+      "Fingerprint": "rujlgjmsum",
+      "Integrity": "PQwMcNEp+nfHzdQgQ2q/Z9KN2weODGqoBiTmrhYEIyQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-6h7q8o06po.gz",
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-83zv9xq6qu.gz",
       "SourceId": "Crud_Blazr.Presentation",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
       "BasePath": "/",
-      "RelativePath": "Crud_Blazr.Presentation#[.{fingerprint=6h7q8o06po}]?.styles.css.gz",
+      "RelativePath": "Crud_Blazr.Presentation#[.{fingerprint=83zv9xq6qu}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -136,11 +493,32 @@
       "RelatedAsset": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Crud_Blazr.Presentation.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "naveb46fm4",
-      "Integrity": "Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=",
+      "Fingerprint": "4eyecx4hu0",
+      "Integrity": "ZCo2OIzhcOf/4Hp0ozTZiRVK6uBodqiYQZQXrKzKCAM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Crud_Blazr.Presentation.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\yxfdm33bor-63oqyoiiv4.gz",
+      "SourceId": "Blazor.Bootstrap",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\",
+      "BasePath": "_content/Blazor.Bootstrap",
+      "RelativePath": "blazor.bootstrap.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "yxyz5stu0f",
+      "Integrity": "pgAQH10C/c4pnVR4ePNmvsmjj82NVHi5OZhtioDxWh0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.css"
     },
     {
       "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Crud_Blazr.Presentation.styles.css",
@@ -157,8 +535,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "6h7q8o06po",
-      "Integrity": "WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=",
+      "Fingerprint": "83zv9xq6qu",
+      "Integrity": "nE/kBv/M4bepKG3W658RNNf3NVSlQQYG48YbDnMVQSo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Crud_Blazr.Presentation.styles.css"
@@ -248,6 +626,27 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\styles.css",
+      "SourceId": "Crud_Blazr.Presentation",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/styles#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kzpegwi3fw",
+      "Integrity": "8BRO30WrN1TQwn5bmjCvme4lWv1OvfwpB41JBq/kiRM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html",
       "SourceId": "Crud_Blazr.Presentation",
       "SourceType": "Discovered",
@@ -262,14 +661,1552 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wkhd9b2as5",
-      "Integrity": "QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4=",
+      "Fingerprint": "47pkzhq1sq",
+      "Integrity": "kIOO8kUkFrJp3PtWiRnyEI+urblAIdfsbikUVWdqlsQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.3vls56qr6z.js",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UUVxM8Rwh7KY+uVT0zQAQlai2SG1I4hkljmKiXsgEYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 17:28:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3vls56qr6z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UUVxM8Rwh7KY+uVT0zQAQlai2SG1I4hkljmKiXsgEYw="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/blazor.bootstrap.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.63oqyoiiv4.css",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22639"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jqE3jyGxWnCTc0Y7oGfHKZOpZM9udgb38MQGLaxmkNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Nov 2024 14:43:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "63oqyoiiv4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jqE3jyGxWnCTc0Y7oGfHKZOpZM9udgb38MQGLaxmkNc="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/blazor.bootstrap.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FYJNevdgdMX4R7rEhQxDvKVdV5SyZSlRT4eVSU+Lgyk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 09:45:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7t9tbfaemk"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FYJNevdgdMX4R7rEhQxDvKVdV5SyZSlRT4eVSU+Lgyk="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/Blazor.Bootstrap.bundle.scp.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\eojifsclv0-7t9tbfaemk.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2252"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jbm+/Hzc+zGQG2gUx0nA7qItPOkK7/gq7oguIlSsHGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 09:45:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jbm+/Hzc+zGQG2gUx0nA7qItPOkK7/gq7oguIlSsHGA="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/Blazor.Bootstrap.bundle.scp.css",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "14166"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FYJNevdgdMX4R7rEhQxDvKVdV5SyZSlRT4eVSU+Lgyk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 09:45:23 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FYJNevdgdMX4R7rEhQxDvKVdV5SyZSlRT4eVSU+Lgyk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/Blazor.Bootstrap.bundle.scp.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\eojifsclv0-7t9tbfaemk.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000443852641"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2252"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jbm+/Hzc+zGQG2gUx0nA7qItPOkK7/gq7oguIlSsHGA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 02 Nov 2024 09:45:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"FYJNevdgdMX4R7rEhQxDvKVdV5SyZSlRT4eVSU+Lgyk=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FYJNevdgdMX4R7rEhQxDvKVdV5SyZSlRT4eVSU+Lgyk="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.css",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22639"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jqE3jyGxWnCTc0Y7oGfHKZOpZM9udgb38MQGLaxmkNc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Nov 2024 14:43:36 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jqE3jyGxWnCTc0Y7oGfHKZOpZM9udgb38MQGLaxmkNc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\yxfdm33bor-63oqyoiiv4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000300480769"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3327"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pgAQH10C/c4pnVR4ePNmvsmjj82NVHi5OZhtioDxWh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Nov 2024 14:43:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"jqE3jyGxWnCTc0Y7oGfHKZOpZM9udgb38MQGLaxmkNc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jqE3jyGxWnCTc0Y7oGfHKZOpZM9udgb38MQGLaxmkNc="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.css.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\yxfdm33bor-63oqyoiiv4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3327"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pgAQH10C/c4pnVR4ePNmvsmjj82NVHi5OZhtioDxWh0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Nov 2024 14:43:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pgAQH10C/c4pnVR4ePNmvsmjj82NVHi5OZhtioDxWh0="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.js",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76748"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UUVxM8Rwh7KY+uVT0zQAQlai2SG1I4hkljmKiXsgEYw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 17:28:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UUVxM8Rwh7KY+uVT0zQAQlai2SG1I4hkljmKiXsgEYw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.js",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\refgsao5tb-3vls56qr6z.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000142025280"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7040"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Eburdp4ExWpUBm6R/BMCs1L6WQSkSUmzFpYPpUM/1FM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 17:28:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"UUVxM8Rwh7KY+uVT0zQAQlai2SG1I4hkljmKiXsgEYw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UUVxM8Rwh7KY+uVT0zQAQlai2SG1I4hkljmKiXsgEYw="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.js.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\refgsao5tb-3vls56qr6z.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7040"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Eburdp4ExWpUBm6R/BMCs1L6WQSkSUmzFpYPpUM/1FM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 15 Jan 2025 17:28:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Eburdp4ExWpUBm6R/BMCs1L6WQSkSUmzFpYPpUM/1FM="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.pdf.ct0ej5e0q0.js",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.pdf.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oAIj2P0Z/6hTwjGA3OGvWLdxMP4KwE35+AQzWQTpxAg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ct0ej5e0q0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oAIj2P0Z/6hTwjGA3OGvWLdxMP4KwE35+AQzWQTpxAg="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/blazor.bootstrap.pdf.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.pdf.js",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.pdf.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7290"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oAIj2P0Z/6hTwjGA3OGvWLdxMP4KwE35+AQzWQTpxAg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oAIj2P0Z/6hTwjGA3OGvWLdxMP4KwE35+AQzWQTpxAg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.pdf.js",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\d5o4a4wkq9-ct0ej5e0q0.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000531067446"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1882"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nydqqtOof6+f+PmQ4A0NAUA1P0gq6mnIXz2Bxnb67hU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"oAIj2P0Z/6hTwjGA3OGvWLdxMP4KwE35+AQzWQTpxAg=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oAIj2P0Z/6hTwjGA3OGvWLdxMP4KwE35+AQzWQTpxAg="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.pdf.js.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\d5o4a4wkq9-ct0ej5e0q0.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1882"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nydqqtOof6+f+PmQ4A0NAUA1P0gq6mnIXz2Bxnb67hU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nydqqtOof6+f+PmQ4A0NAUA1P0gq6mnIXz2Bxnb67hU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.sortable-list.ezlxc6gzv3.js",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.sortable-list.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"du71NM6e2+m9l81ldV+Gbr74ER7Xx1GnJFg+rIY6OQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Apr 2024 19:30:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ezlxc6gzv3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-du71NM6e2+m9l81ldV+Gbr74ER7Xx1GnJFg+rIY6OQU="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/blazor.bootstrap.sortable-list.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.sortable-list.js",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.sortable-list.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"du71NM6e2+m9l81ldV+Gbr74ER7Xx1GnJFg+rIY6OQU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Apr 2024 19:30:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-du71NM6e2+m9l81ldV+Gbr74ER7Xx1GnJFg+rIY6OQU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.sortable-list.js",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\sismm8xg1l-ezlxc6gzv3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001724137931"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uFVvFFB+3W83uAUE+4Ua0lEvBhAsKvujonlqjLwrL28=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Apr 2024 19:30:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"du71NM6e2+m9l81ldV+Gbr74ER7Xx1GnJFg+rIY6OQU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-du71NM6e2+m9l81ldV+Gbr74ER7Xx1GnJFg+rIY6OQU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.sortable-list.js.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\sismm8xg1l-ezlxc6gzv3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "579"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uFVvFFB+3W83uAUE+4Ua0lEvBhAsKvujonlqjLwrL28=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Apr 2024 19:30:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uFVvFFB+3W83uAUE+4Ua0lEvBhAsKvujonlqjLwrL28="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.theme-switcher.js",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.theme-switcher.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hy2y6B5ohWPnmWg4c52+QUuZGTw8r09KtWKcaGiaa/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 15:30:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hy2y6B5ohWPnmWg4c52+QUuZGTw8r09KtWKcaGiaa/k="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.theme-switcher.js",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\q8v6i1uv3e-pisakkcwob.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001145475372"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "872"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJfIzc79/b2DvnBKYWn0IBrKaIy/wIxga6SGtKsdW3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 15:30:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"Hy2y6B5ohWPnmWg4c52+QUuZGTw8r09KtWKcaGiaa/k=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hy2y6B5ohWPnmWg4c52+QUuZGTw8r09KtWKcaGiaa/k="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.theme-switcher.js.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\q8v6i1uv3e-pisakkcwob.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "872"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hJfIzc79/b2DvnBKYWn0IBrKaIy/wIxga6SGtKsdW3c=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 15:30:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hJfIzc79/b2DvnBKYWn0IBrKaIy/wIxga6SGtKsdW3c="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/blazor.bootstrap.theme-switcher.pisakkcwob.js",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\blazor.bootstrap.theme-switcher.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hy2y6B5ohWPnmWg4c52+QUuZGTw8r09KtWKcaGiaa/k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 20 Nov 2024 15:30:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pisakkcwob"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hy2y6B5ohWPnmWg4c52+QUuZGTw8r09KtWKcaGiaa/k="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/blazor.bootstrap.theme-switcher.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/icon/128X128.png",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\icon\\128X128.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7074"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J1yB7ftYf6PWiU1781eE0JHBGfd1MV/XlLaxpVy09RU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Apr 2022 11:45:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-J1yB7ftYf6PWiU1781eE0JHBGfd1MV/XlLaxpVy09RU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/icon/128X128.tngynhsog2.png",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\icon\\128X128.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7074"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"J1yB7ftYf6PWiU1781eE0JHBGfd1MV/XlLaxpVy09RU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Apr 2022 11:45:43 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tngynhsog2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-J1yB7ftYf6PWiU1781eE0JHBGfd1MV/XlLaxpVy09RU="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/icon/128X128.png"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/pdfjs-4.0.379.min.j8zp7bt7w3.js",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\pdfjs-4.0.379.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "305685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XX7we2CiSWzj3rsNtKFCod90LBYAJ3bo8rmu4EuN7SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "j8zp7bt7w3"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XX7we2CiSWzj3rsNtKFCod90LBYAJ3bo8rmu4EuN7SQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/pdfjs-4.0.379.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/pdfjs-4.0.379.min.js",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\pdfjs-4.0.379.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "305685"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XX7we2CiSWzj3rsNtKFCod90LBYAJ3bo8rmu4EuN7SQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XX7we2CiSWzj3rsNtKFCod90LBYAJ3bo8rmu4EuN7SQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/pdfjs-4.0.379.min.js",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\36w3eu0hkb-j8zp7bt7w3.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000011734472"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85218"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e5GjvOPQaaLZ9dNtoNRO73cMnfQyFoPTRZai00f9zro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"XX7we2CiSWzj3rsNtKFCod90LBYAJ3bo8rmu4EuN7SQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XX7we2CiSWzj3rsNtKFCod90LBYAJ3bo8rmu4EuN7SQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/pdfjs-4.0.379.min.js.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\36w3eu0hkb-j8zp7bt7w3.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "85218"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"e5GjvOPQaaLZ9dNtoNRO73cMnfQyFoPTRZai00f9zro=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-e5GjvOPQaaLZ9dNtoNRO73cMnfQyFoPTRZai00f9zro="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/pdfjs-4.0.379.worker.min.79hai7knhw.js",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\pdfjs-4.0.379.worker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1029159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JbwqIn9Fic7JuWyTXuNnAA1T0dYQ2tkTi9HhrSltUtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "79hai7knhw"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JbwqIn9Fic7JuWyTXuNnAA1T0dYQ2tkTi9HhrSltUtQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/Blazor.Bootstrap/pdfjs-4.0.379.worker.min.js"
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/pdfjs-4.0.379.worker.min.js",
+      "AssetFile": "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\staticwebassets\\pdfjs-4.0.379.worker.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1029159"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JbwqIn9Fic7JuWyTXuNnAA1T0dYQ2tkTi9HhrSltUtQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JbwqIn9Fic7JuWyTXuNnAA1T0dYQ2tkTi9HhrSltUtQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/pdfjs-4.0.379.worker.min.js",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\mfzx4sb2rv-79hai7knhw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000003566944"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280351"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9TNoEYsYuIKggcIqkZQ31ttX9PkR4QGQJXypC0zEfPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"JbwqIn9Fic7JuWyTXuNnAA1T0dYQ2tkTi9HhrSltUtQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JbwqIn9Fic7JuWyTXuNnAA1T0dYQ2tkTi9HhrSltUtQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/Blazor.Bootstrap/pdfjs-4.0.379.worker.min.js.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\mfzx4sb2rv-79hai7knhw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280351"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9TNoEYsYuIKggcIqkZQ31ttX9PkR4QGQJXypC0zEfPI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 15 Jul 2024 07:36:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9TNoEYsYuIKggcIqkZQ31ttX9PkR4QGQJXypC0zEfPI="
+        }
+      ]
+    },
     {
       "Route": "Crud_Blazr.Presentation.6h7q8o06po.bundle.scp.css",
       "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\6b3dax2paz-6h7q8o06po.gz",
@@ -432,13 +2369,13 @@
       ]
     },
     {
-      "Route": "Crud_Blazr.Presentation.6h7q8o06po.styles.css",
-      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-6h7q8o06po.gz",
+      "Route": "Crud_Blazr.Presentation.83zv9xq6qu.styles.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-83zv9xq6qu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000614628150"
+          "Quality": "0.000600600601"
         }
       ],
       "ResponseHeaders": [
@@ -448,15 +2385,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1626"
+          "Value": "1664"
         },
         {
           "Name": "ETag",
-          "Value": "\"Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=\""
+          "Value": "\"ZCo2OIzhcOf/4Hp0ozTZiRVK6uBodqiYQZQXrKzKCAM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 18:45:01 GMT"
+          "Value": "Thu, 30 Jan 2025 17:32:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -476,26 +2413,30 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+          "Value": "W/\"nE/kBv/M4bepKG3W658RNNf3NVSlQQYG48YbDnMVQSo=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Blazor.Bootstrap/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6h7q8o06po"
+          "Value": "83zv9xq6qu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nE/kBv/M4bepKG3W658RNNf3NVSlQQYG48YbDnMVQSo="
         },
         {
           "Name": "label",
           "Value": "Crud_Blazr.Presentation.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
         }
       ]
     },
     {
-      "Route": "Crud_Blazr.Presentation.6h7q8o06po.styles.css",
+      "Route": "Crud_Blazr.Presentation.83zv9xq6qu.styles.css",
       "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\Crud_Blazr.Presentation.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -504,8 +2445,12 @@
           "Value": "bytes"
         },
         {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "5564"
         },
         {
           "Name": "Content-Type",
@@ -513,35 +2458,35 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+          "Value": "\"nE/kBv/M4bepKG3W658RNNf3NVSlQQYG48YbDnMVQSo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 18:45:01 GMT"
+          "Value": "Thu, 30 Jan 2025 17:32:47 GMT"
         },
         {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Name": "Link",
+          "Value": "<_content/Blazor.Bootstrap/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6h7q8o06po"
+          "Value": "83zv9xq6qu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nE/kBv/M4bepKG3W658RNNf3NVSlQQYG48YbDnMVQSo="
         },
         {
           "Name": "label",
           "Value": "Crud_Blazr.Presentation.styles.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
         }
       ]
     },
     {
-      "Route": "Crud_Blazr.Presentation.6h7q8o06po.styles.css.gz",
-      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-6h7q8o06po.gz",
+      "Route": "Crud_Blazr.Presentation.83zv9xq6qu.styles.css.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-83zv9xq6qu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -550,7 +2495,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1626"
+          "Value": "1664"
         },
         {
           "Name": "Content-Type",
@@ -558,11 +2503,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=\""
+          "Value": "\"ZCo2OIzhcOf/4Hp0ozTZiRVK6uBodqiYQZQXrKzKCAM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 18:45:01 GMT"
+          "Value": "Thu, 30 Jan 2025 17:32:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -580,7 +2525,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6h7q8o06po"
+          "Value": "83zv9xq6qu"
         },
         {
           "Name": "label",
@@ -588,7 +2533,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs="
+          "Value": "sha256-ZCo2OIzhcOf/4Hp0ozTZiRVK6uBodqiYQZQXrKzKCAM="
         }
       ]
     },
@@ -731,12 +2676,12 @@
     },
     {
       "Route": "Crud_Blazr.Presentation.styles.css",
-      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-6h7q8o06po.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-83zv9xq6qu.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000614628150"
+          "Quality": "0.000600600601"
         }
       ],
       "ResponseHeaders": [
@@ -746,15 +2691,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1626"
+          "Value": "1664"
         },
         {
           "Name": "ETag",
-          "Value": "\"Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=\""
+          "Value": "\"ZCo2OIzhcOf/4Hp0ozTZiRVK6uBodqiYQZQXrKzKCAM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 18:45:01 GMT"
+          "Value": "Thu, 30 Jan 2025 17:32:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -774,13 +2719,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+          "Value": "W/\"nE/kBv/M4bepKG3W658RNNf3NVSlQQYG48YbDnMVQSo=\""
+        },
+        {
+          "Name": "Link",
+          "Value": "<_content/Blazor.Bootstrap/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+          "Value": "sha256-nE/kBv/M4bepKG3W658RNNf3NVSlQQYG48YbDnMVQSo="
         }
       ]
     },
@@ -794,8 +2743,12 @@
           "Value": "bytes"
         },
         {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
           "Name": "Content-Length",
-          "Value": "5481"
+          "Value": "5564"
         },
         {
           "Name": "Content-Type",
@@ -803,27 +2756,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso=\""
+          "Value": "\"nE/kBv/M4bepKG3W658RNNf3NVSlQQYG48YbDnMVQSo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 18:45:01 GMT"
+          "Value": "Thu, 30 Jan 2025 17:32:47 GMT"
         },
         {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Name": "Link",
+          "Value": "<_content/Blazor.Bootstrap/Blazor.Bootstrap.7t9tbfaemk.bundle.scp.css>; rel=\"preload\"; as=\"style\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-WpBtrdwfo6dhxN7+6oPddI3IdlJ/raXXkmvbJhi2cso="
+          "Value": "sha256-nE/kBv/M4bepKG3W658RNNf3NVSlQQYG48YbDnMVQSo="
         }
       ]
     },
     {
       "Route": "Crud_Blazr.Presentation.styles.css.gz",
-      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-6h7q8o06po.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\v6vbr7v6n8-83zv9xq6qu.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -832,7 +2785,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1626"
+          "Value": "1664"
         },
         {
           "Name": "Content-Type",
@@ -840,11 +2793,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs=\""
+          "Value": "\"ZCo2OIzhcOf/4Hp0ozTZiRVK6uBodqiYQZQXrKzKCAM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 23 Jan 2025 18:45:01 GMT"
+          "Value": "Thu, 30 Jan 2025 17:32:47 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -862,7 +2815,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Ec/aSCZ3ux292ovAp81HlSZiKPkJNEHT52ROvjG/nXs="
+          "Value": "sha256-ZCo2OIzhcOf/4Hp0ozTZiRVK6uBodqiYQZQXrKzKCAM="
         }
       ]
     },
@@ -1761,13 +3714,13 @@
       ]
     },
     {
-      "Route": "index.html",
-      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-wkhd9b2as5.gz",
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\51hewvdo46-kzpegwi3fw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002237136465"
+          "Quality": "0.003584229391"
         }
       ],
       "ResponseHeaders": [
@@ -1777,15 +3730,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "446"
+          "Value": "278"
         },
         {
           "Name": "ETag",
-          "Value": "\"lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90=\""
+          "Value": "\"FfT1mM9EV3RIs25E2p9gzK8MvlhKhnHrUBOw6t9u4vI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+          "Value": "Thu, 30 Jan 2025 18:56:03 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1801,22 +3754,328 @@
         },
         {
           "Name": "Content-Type",
-          "Value": "text/html"
+          "Value": "text/css"
         },
         {
           "Name": "ETag",
-          "Value": "W/\"QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4=\""
+          "Value": "W/\"8BRO30WrN1TQwn5bmjCvme4lWv1OvfwpB41JBq/kiRM=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4="
+          "Value": "sha256-8BRO30WrN1TQwn5bmjCvme4lWv1OvfwpB41JBq/kiRM="
         }
       ]
     },
     {
-      "Route": "index.html",
+      "Route": "css/styles.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8BRO30WrN1TQwn5bmjCvme4lWv1OvfwpB41JBq/kiRM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 18:56:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8BRO30WrN1TQwn5bmjCvme4lWv1OvfwpB41JBq/kiRM="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.css.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\51hewvdo46-kzpegwi3fw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FfT1mM9EV3RIs25E2p9gzK8MvlhKhnHrUBOw6t9u4vI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 18:56:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FfT1mM9EV3RIs25E2p9gzK8MvlhKhnHrUBOw6t9u4vI="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.kzpegwi3fw.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\51hewvdo46-kzpegwi3fw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.003584229391"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "278"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FfT1mM9EV3RIs25E2p9gzK8MvlhKhnHrUBOw6t9u4vI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 18:56:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"8BRO30WrN1TQwn5bmjCvme4lWv1OvfwpB41JBq/kiRM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kzpegwi3fw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8BRO30WrN1TQwn5bmjCvme4lWv1OvfwpB41JBq/kiRM="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.kzpegwi3fw.css",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\css\\styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "422"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8BRO30WrN1TQwn5bmjCvme4lWv1OvfwpB41JBq/kiRM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 18:56:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kzpegwi3fw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8BRO30WrN1TQwn5bmjCvme4lWv1OvfwpB41JBq/kiRM="
+        }
+      ]
+    },
+    {
+      "Route": "css/styles.kzpegwi3fw.css.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\51hewvdo46-kzpegwi3fw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "278"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FfT1mM9EV3RIs25E2p9gzK8MvlhKhnHrUBOw6t9u4vI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 18:56:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kzpegwi3fw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/styles.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FfT1mM9EV3RIs25E2p9gzK8MvlhKhnHrUBOw6t9u4vI="
+        }
+      ]
+    },
+    {
+      "Route": "index.47pkzhq1sq.html",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-47pkzhq1sq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002178649237"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PQwMcNEp+nfHzdQgQ2q/Z9KN2weODGqoBiTmrhYEIyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 18:31:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kIOO8kUkFrJp3PtWiRnyEI+urblAIdfsbikUVWdqlsQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "47pkzhq1sq"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kIOO8kUkFrJp3PtWiRnyEI+urblAIdfsbikUVWdqlsQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.47pkzhq1sq.html",
       "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1826,7 +4085,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "879"
+          "Value": "932"
         },
         {
           "Name": "Content-Type",
@@ -1834,121 +4093,21 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4=\""
+          "Value": "\"kIOO8kUkFrJp3PtWiRnyEI+urblAIdfsbikUVWdqlsQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4="
-        }
-      ]
-    },
-    {
-      "Route": "index.html.gz",
-      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-wkhd9b2as5.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "446"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90="
-        }
-      ]
-    },
-    {
-      "Route": "index.wkhd9b2as5.html",
-      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-wkhd9b2as5.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002237136465"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "446"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+          "Value": "Thu, 30 Jan 2025 18:31:53 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wkhd9b2as5"
+          "Value": "47pkzhq1sq"
         },
         {
           "Name": "label",
@@ -1956,13 +4115,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4="
+          "Value": "sha256-kIOO8kUkFrJp3PtWiRnyEI+urblAIdfsbikUVWdqlsQ="
         }
       ]
     },
     {
-      "Route": "index.wkhd9b2as5.html",
-      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html",
+      "Route": "index.47pkzhq1sq.html.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-47pkzhq1sq.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1971,7 +4130,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "879"
+          "Value": "458"
         },
         {
           "Name": "Content-Type",
@@ -1979,56 +4138,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4=\""
+          "Value": "\"PQwMcNEp+nfHzdQgQ2q/Z9KN2weODGqoBiTmrhYEIyQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wkhd9b2as5"
-        },
-        {
-          "Name": "label",
-          "Value": "index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-QO8RPFJmCLF+nQMauKS/uk5EGzVW0LK0wTvjobBwMN4="
-        }
-      ]
-    },
-    {
-      "Route": "index.wkhd9b2as5.html.gz",
-      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-wkhd9b2as5.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "446"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 21 Jan 2025 20:43:22 GMT"
+          "Value": "Thu, 30 Jan 2025 18:31:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2046,7 +4160,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "wkhd9b2as5"
+          "Value": "47pkzhq1sq"
         },
         {
           "Name": "label",
@@ -2054,7 +4168,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-lE8eJKikeF1QpP/fbciAqnQxqW4c94h4FIEZ091PU90="
+          "Value": "sha256-PQwMcNEp+nfHzdQgQ2q/Z9KN2weODGqoBiTmrhYEIyQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-47pkzhq1sq.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002178649237"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PQwMcNEp+nfHzdQgQ2q/Z9KN2weODGqoBiTmrhYEIyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 18:31:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"kIOO8kUkFrJp3PtWiRnyEI+urblAIdfsbikUVWdqlsQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kIOO8kUkFrJp3PtWiRnyEI+urblAIdfsbikUVWdqlsQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "932"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kIOO8kUkFrJp3PtWiRnyEI+urblAIdfsbikUVWdqlsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 18:31:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kIOO8kUkFrJp3PtWiRnyEI+urblAIdfsbikUVWdqlsQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\obj\\Debug\\net9.0-windows10.0.19041.0\\win10-x64\\compressed\\tuv6l5c82h-47pkzhq1sq.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "458"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PQwMcNEp+nfHzdQgQ2q/Z9KN2weODGqoBiTmrhYEIyQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 30 Jan 2025 18:31:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PQwMcNEp+nfHzdQgQ2q/Z9KN2weODGqoBiTmrhYEIyQ="
         }
       ]
     }

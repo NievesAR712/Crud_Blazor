@@ -1,0 +1,10 @@
+﻿
+.irregular-shape {
+    width: 100vw; /* Ajusta el tamaño según sea necesario */
+    height: 150px; /* Ajusta el tamaño según sea necesario */
+    background-color: #007bff; /* Color de fondo */
+    clip-path: polygon(83% 91%, 100% 73%, 100% 100%, 0% 100%);
+    position: absolute; /* Esto lo fija dentro del contenedor */
+    bottom: 0; /* Lo coloca en la parte inferior del contenedor */
+    left: 0;
+}

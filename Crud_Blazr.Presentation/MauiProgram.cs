@@ -20,7 +20,6 @@ namespace Crud_Blazr.Presentation
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                 });
-
             builder.Services.AddMauiBlazorWebView();
             builder.Services.AddHttpClient<PokeApiService>();
             builder.Services.AddScoped<IUserRepository, UsuarioRepository>();  

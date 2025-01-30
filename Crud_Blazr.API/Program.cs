@@ -10,7 +10,7 @@ builder.Services.AddControllers();
 
 // Registra repositorios e interfaces
 builder.Services.AddScoped<IUserRepository, UsuarioRepository>();
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer("Server=(localdb)\\NievesLocal;Database=Crud_Blazor;Trusted_Connection=True;"));
+builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer("Server=(localdb)\\NievesLocal;Database=Crud_Blazor1;Trusted_Connection=True;"));
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddSignalR();
 builder.Services.AddOpenApi();

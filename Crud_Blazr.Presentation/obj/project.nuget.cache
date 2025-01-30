@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "fqXemJk3JrA=",
+  "dgSpecHash": "DvKgJrbh+pg=",
   "success": true,
   "projectFilePath": "C:\\Users\\anieves\\source\\repos\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation\\Crud_Blazr.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anieves\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\anieves\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
+    "C:\\Users\\anieves\\.nuget\\packages\\blazor.bootstrap\\3.3.0\\blazor.bootstrap.3.3.0.nupkg.sha512",
     "C:\\Users\\anieves\\.nuget\\packages\\googlegson\\2.11.0.3\\googlegson.2.11.0.3.nupkg.sha512",
     "C:\\Users\\anieves\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",
     "C:\\Users\\anieves\\.nuget\\packages\\microsoft.aspnetcore.authorization\\9.0.0\\microsoft.aspnetcore.authorization.9.0.0.nupkg.sha512",

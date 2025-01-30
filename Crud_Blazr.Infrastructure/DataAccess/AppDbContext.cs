@@ -16,7 +16,7 @@ namespace Crud_Blazr.Infrastructure.DataAccess
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=(localdb)\\NievesLocal;Database=Crud_Blazor;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=(localdb)\\NievesLocal;Database=Crud_Blazor1;Trusted_Connection=True;");
             }
         }
     }
